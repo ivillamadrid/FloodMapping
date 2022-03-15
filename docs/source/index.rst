@@ -1,22 +1,21 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to Flood-Mapping documentation
+======================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Flood mapping with the aid of computers and remote sensing imagery (satellites, airplanes and drones) requires technical information and this tutorial
+tries to guide you through the basic terminology with essential concepts and references.
 
 .. note::
 
-   This project is under active development.
+   This project is under active development, promoted by  `ivillanueva.earth <https://www.ivillanueva.earth/>`_ since March 2022.
 
 Contents
 --------
 
 .. toctree::
 
-   usage
-   api
+   Flood Dynamics principles: wet-dry tracking
+   Conservation laws: meshing domains
+   
+   
+   docs/source/index.rst¶
+   
