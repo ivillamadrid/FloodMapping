@@ -1,8 +1,7 @@
 Welcome to Flood-Mapping documentation
 ======================================
 
-Flood mapping with the aid of computers and remote sensing imagery (satellites, airplanes and drones) requires technical information and this tutorial
-tries to guide you through the basic terminology with essential concepts and references.
+Flood mapping with the aid of computers and remote sensing imagery (satellites, airplanes and drones) requires cross-disciplinary but easy access information. The purpose of this online tutorial is to guide newcomers through the basic terminology with essential concepts and references, to support capacity building programmes.
 
 .. note::
 
@@ -15,6 +14,7 @@ Contents
 
    Flood Dynamics principles: wet-dry tracking
    Conservation laws: meshing domains
+   
    
    
    docs/source/index.rst¶
