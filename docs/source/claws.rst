@@ -7,4 +7,4 @@ The Time Step issue
 
 .. math::
 
-  \mbfDelta t=
+  \Delta t=CFL \Delta_{x, y}
