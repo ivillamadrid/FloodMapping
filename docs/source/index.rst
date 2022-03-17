@@ -17,7 +17,7 @@ Contents
    Conservation Laws
    Digital Elevation Models
    LSM assisted by Satellite imagery and AI
-   UAVs, 3D Reconstruction and LSPIV
+   3D Reconstruction and LSPIV with UAVs
    
    
    
