@@ -8,9 +8,10 @@ Flood mapping with the aid of computers and remote sensing imagery (satellites, 
    This project is under active development, promoted by  `ivillanueva.earth <https://www.ivillanueva.earth/>`_ since March 2022.
 
 Contents
---------
+========
 .. toctree::
-   :maxdepth:6
+   :numbered:
+   
    Flood Dynamics principles: wet-dry tracking
    Conservation laws: meshing domains
    Using Digital Elevation Models
