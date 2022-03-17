@@ -9,14 +9,15 @@ Flood mapping with the aid of computers and remote sensing imagery (satellites, 
 
 Contents
 ========
+
 .. toctree::
    :numbered:
    
-   Flood Dynamics principles: wet-dry tracking
-   Conservation laws: meshing domains
-   Using Digital Elevation Models
-   Large Scale modelling assisted by Satellite Imagery and Artificial-Intelligence
-   Local cover with UAVs: 3D reconstruction and LSPIV
+   Flood Dynamics 
+   Conservation laws
+   Digital Elevation Models
+   LSM assisted by Satellite imagery and AI
+   UAVs, 3D reconstruction and LSPIV
    
    
    
