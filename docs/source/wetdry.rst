@@ -1,2 +1,2 @@
-Wet-Dry Dynamics
-================
+Wet-Dry front dynamics
+======================
