@@ -11,13 +11,13 @@ Contents
 ========
 
 .. toctree::
-   :numbered:
+
    
    wet-dry dynamics 
    conservation laws
    digital elevation models
    large scale modelling assisted by satellite imagery and artificial intelligence
-   reconstruction and LSPIV with drones
+   drones: 3D reconstruction and LSPIV
    
    
    
