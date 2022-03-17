@@ -1,2 +1,2 @@
-Drones: 3D Reconstruction and LSPIV
+Drones: 3D reconstruction and LSPIV
 ====================================
