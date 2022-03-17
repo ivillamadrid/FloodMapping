@@ -1,2 +1,2 @@
-Conservation laws and domain meshing
+Conservation laws and Domain meshing
 ====================================
