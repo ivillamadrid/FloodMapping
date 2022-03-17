@@ -13,11 +13,11 @@ Contents
 .. toctree::
    :numbered:
    
-   Wet-Dry Dynamics 
-   Conservation Laws
-   Digital Elevation Models
-   LSM assisted by Satellite imagery and AI
-   3D Reconstruction and LSPIV with UAVs
+   wet-dry dynamics 
+   conservation laws
+   digital elevation models
+   large scale modelling assisted by satellite imagery and artificial intelligence
+   reconstruction and LSPIV with drones
    
    
    
