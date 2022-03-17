@@ -17,7 +17,7 @@ Contents
    conservation laws
    digital elevation models
    large scale modelling assisted by satellite imagery and artificial intelligence
-   drones: 3D reconstruction and LSPIV
+   Drones: 3D reconstruction and LSPIV
    
    
    
