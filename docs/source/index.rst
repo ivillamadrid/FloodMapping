@@ -13,11 +13,11 @@ Contents
 .. toctree::
 
    
-   wet-dry dynamics 
-   conservation laws
-   digital elevation models
-   large scale modelling assisted by satellite imagery and artificial intelligence
-   Drones: 3D reconstruction and LSPIV
+   wetdry 
+   claws
+   dem
+   lsm
+   drones
    
    
    
