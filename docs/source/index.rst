@@ -13,11 +13,11 @@ Contents
 .. toctree::
    :numbered:
    
-   Flood Dynamics 
-   Conservation laws
+   Wet-Dry Dynamics 
+   Conservation Laws
    Digital Elevation Models
    LSM assisted by Satellite imagery and AI
-   UAVs, 3D reconstruction and LSPIV
+   UAVs, 3D Reconstruction and LSPIV
    
    
    
