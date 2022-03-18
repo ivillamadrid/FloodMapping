@@ -8,7 +8,7 @@ For an orthogonal or cartesian meshed domain  :math:`\Omega`
 
 .. math::
 
-  \Delta t_{x, y} &= CFL \frac{\Delta l_{x, y}} {\left| U_{x, y} \right|  + \sqrt{gh}}
+  \Delta t_{x, y} &= CFL \frac{\Delta L_{x, y}} {\left| U_{x, y} \right|  + \sqrt{gh}}
  \\
  \\
   \Delta t &= min(\Delta t_x, \Delta t_y)_{\Omega}
@@ -23,7 +23,7 @@ Which can be discretized in an explicit way, like :
 
 .. math::
 
-  \frac{ A^{n+1}_i - A^{n}_i} {\Delta t} + \frac{Q^{n}_{i-1/2}-Q^{n}_{i+1/2}} {\Delta x}=0 
+  \frac{ A^{n+1}_i - A^{n}_i} {\Delta t} + \frac{Q^{n}_{i-1/2}-Q^{n}_{i+1/2}} {\Delta L_x}=0 
   
 Which allows for stability if :math:`CFL \lt 1`
 
