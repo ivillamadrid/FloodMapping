@@ -4,7 +4,7 @@ Conservation laws and Domain meshing
 
 The Time Step issue
 -------------------
-For an orthogonal or cartesian meshed domain  :math:`\Omega`
+For an orthogonal or cartesian meshed domain  :math:`\Omega` , the Courant-Friedrichs-Levy criteria or CFL coefficient weights the time-step
 
 .. math::
 
