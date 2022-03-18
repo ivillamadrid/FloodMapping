@@ -35,7 +35,8 @@ Whereas an implicit discretization scheme, like the box scheme:
   
 With  :math:`0 \le \Psi \le 1` and :math:`0 \le \Theta \le 1` allows for stability even with :math:`CFL \gt 1`
 
-The price is, as briefly seen, that the solving algorithm and coding are more complex but the execution can be faster, depending
-also on the domain mesh division and its hardware distribution among processing units (CPU, GPU or TPU).
+The price for an implicit scheme, as briefly seen, is that the solving algorithm and coding are more complex but the execution can be faster, depending also on the domain mesh division and its hardware distribution among processing units (CPU, GPU or TPU).
+Particularly, the popular HEC-RAS code uses an implicit scheme formulation.
 
+Note we did not consider the conservation of momentum, for the sake of simplicity in the formulation.
 To know more visit:
