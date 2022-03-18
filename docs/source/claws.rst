@@ -19,7 +19,7 @@ And is applied to the mass conservation at every control-volume or cell, for ins
 
   \frac{\delta A} {\delta t} + \frac{\delta Q} {\delta x}=0 
 
-Which can be discretized (super-index 'n' means partition in time and sub-index 'i' partition in space) in an explicit way, like the Euler scheme :
+Which can be discretized (super-index 'n' stands for evolution in time and sub-index 'i' for location in 1D-grid) in an explicit way, like the Euler scheme :
 
 .. math::
 
