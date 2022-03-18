@@ -25,6 +25,6 @@ Which can be discretized in an explicit way, like :
 
   \frac{ A^{n+1}_i - A^{n}_i} {\Delta t} + \frac{Q^{n}_{i-1/2}-Q^{n}_{i+1/2}} {\Delta x}=0 
   
-Which allows for stability :math: CFL \lt 1
+Which allows for stability if :math: `CFL \lt 1`
 
 Whereas an implicit discretization scheme like the box scheme: 
