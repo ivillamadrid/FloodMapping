@@ -4,7 +4,7 @@ Conservation laws and Domain meshing
 
 The Time Step issue
 -------------------
-For an orthogonal or cartesian meshed domain &#937; :math:`\Omega`
+For an orthogonal or cartesian meshed domain  :math:`\Omega`
 
 .. math::
 
@@ -16,5 +16,5 @@ For an orthogonal or cartesian meshed domain &#937; :math:`\Omega`
 Is applied to the mass conservation:
 .. math::
 
-  \frac{\partial A} {\partial t} + \frac{\partial Q} {\partial x}=0 
+  \frac{\delta A} {\delta t} + \frac{\delta Q} {\delta x}=0 
 
