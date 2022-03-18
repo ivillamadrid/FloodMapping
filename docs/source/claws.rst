@@ -19,7 +19,7 @@ Is applied to the mass conservation at every control-volume or cell, for instanc
 
   \frac{\delta A} {\delta t} + \frac{\delta Q} {\delta x}=0 
 
-Which can be discretized in an explicit way, like :
+Which can be discretized in an explicit way, like the Euler scheme :
 
 .. math::
 
@@ -27,8 +27,10 @@ Which can be discretized in an explicit way, like :
   
 Which allows for stability if :math:`CFL \lt 1`
 
-Whereas an implicit discretization scheme like the box scheme:
+Whereas an implicit discretization scheme, like the box scheme:
 
 .. math::
 
-  \frac{ \Psi \left( A^{n+1}_{i-1} + (1-\Psi) A^{n+1}_i \right)- \left( \Psi A^{n}_{i-1} + (1-\Psi) A^{n}_i \right)} {\Delta t} + \frac{\Theta \left(Q^{n+1}_{i-1}-Q^{n+1}_{i}\right)+(1-\Theta)\left( Q^{n}_{i-1}-Q^{n}_{i}\right)} {\Delta x}=0 
+  \frac{ \left( \Psi A^{n+1}_{i-1} + (1-\Psi) A^{n+1}_i \right)- \left( \Psi A^{n}_{i-1} + (1-\Psi) A^{n}_i \right)} {\Delta t} + \frac{\Theta \left(Q^{n+1}_{i-1}-Q^{n+1}_{i}\right)+(1-\Theta)\left( Q^{n}_{i-1}-Q^{n}_{i}\right)} {\Delta x}=0 
+  
+With  :math:`0 \le \Psi \le 1` and :math:`0 \le \Theta \le 1` allows for stability with :math:`CFL \gt 1`
