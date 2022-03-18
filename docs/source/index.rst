@@ -1,7 +1,7 @@
 Welcome to Flood-Mapping documentation
 ======================================
 
-Flood mapping with the aid of computers and remote sensing imagery (satellites, airplanes and drones) requires cross-disciplinary but easy access information. The purpose of this online tutorial is to guide newcomers through the basic terminology with essential concepts and references, while they start capacity building  or self-education programmes, all is based on the experience of over 10 international seminars in LATAM and MENA countries, face to face or remotely, and between 20-40 lecturing hours, developed since 2017. 
+Flood mapping with the aid of computers and remote sensing imagery (satellites, airplanes and drones) requires cross-disciplinary but easy access information. The purpose of this online tutorial is to guide newcomers through the basic terminology with essential concepts and references, while they start capacity building  or self-education programmes. All is based on the experience of over 10 international seminars in LATAM and MENA countries, face to face or remotely, and between 20-40 lecturing hours, developed since 2017. 
 
 .. note::
 
