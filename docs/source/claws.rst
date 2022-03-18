@@ -4,7 +4,7 @@ Conservation laws and Domain meshing
 
 The Time Step issue
 -------------------
-For an orthogonal or cartesian meshed domain  :math:`\Omega` , the Courant-Friedrichs-Levy criteria defines a so called CFL coefficient that weights the time-step:
+For an orthogonal or cartesian meshed domain  :math:`\Omega` , the Courant-Friedrichs-Levy criteria defines its CFL coefficient that weights the time-step:
 
 .. math::
 
@@ -13,7 +13,7 @@ For an orthogonal or cartesian meshed domain  :math:`\Omega` , the Courant-Fried
  \\
   \Delta t &= min(\Delta t_x, \Delta t_y)_{\Omega}
  
-Is applied to the mass conservation at every control-volume or cell, for instance in 1D(X):
+And is applied to the mass conservation at every control-volume or cell, for instance in 1D(X):
 
 .. math::
 
