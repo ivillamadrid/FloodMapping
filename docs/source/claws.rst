@@ -13,7 +13,8 @@ For an orthogonal or cartesian meshed domain  :math:`\Omega`
  \\
   \Delta t &= min(\Delta t_x, \Delta t_y)_{\Omega}
  
-Is applied to the mass conservation:
+Is applied to the mass conservation at every control-volume or cell:
+
 .. math::
 
   \frac{\delta A} {\delta t} + \frac{\delta Q} {\delta x}=0 
