@@ -31,4 +31,4 @@ Whereas an implicit discretization scheme like the box scheme:
 
 .. math::
 
-  \frac{ \Theta \left( A^{n+1}_{i+1} - A^{n+1}_i \right)+ (1-\Theta)\left( A^{n}_{i+1} - A^{n}_i \right)} {\Delta t} + \frac{\Psi \left(Q^{n+1}_{i-1}-Q^{n+1}_{i}\right)+(1-\Psi)\left( Q^{n+1}_{i-1}-Q^{n+1}_{i}\right)} {\Delta x}=0 
+  \frac{ \Psi \left( A^{n+1}_{i-1} + (1-\Psi) A^{n+1}_i \right)- \left( \Psi A^{n}_{i-1} + (1-\Psi) A^{n}_i \right)} {\Delta t} + \frac{\Theta \left(Q^{n+1}_{i-1}-Q^{n+1}_{i}\right)+(1-\Theta)\left( Q^{n}_{i-1}-Q^{n}_{i}\right)} {\Delta x}=0 
