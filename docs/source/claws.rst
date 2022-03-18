@@ -7,4 +7,4 @@ The Time Step issue
 
 .. math::
 
-  \Delta t_{x, y}=CFL {\Delta {x, y}_\omega} over{\abs U_{x, y} \abs + \sqrt(gh)}
+  \Delta t_{x, y}=CFL \frac{\Delta {x, y}} {\left| U_{x, y} \right|  + \sqrt(gh)}
