@@ -4,7 +4,7 @@ Conservation laws and Domain meshing
 
 The Time Step issue
 -------------------
-For an orthogonal or cartesian meshed domain &#937; 
+For an orthogonal or cartesian meshed domain &#937; :math:`\Omega`
 
 .. math::
 
