@@ -14,12 +14,17 @@ The momentum conservation at every control-volume or cell, for instance in 1D(X)
 
 .. math::
 
-  \frac{\delta Q} {\delta t} + \frac{\delta \left( Q^2/A \right)} {\delta x} = \frac{\delta \left( Z_b+h \right)} {\delta x}-S_f 
+  \frac{\delta Q} {\delta t} + \frac{\delta \left( Q^2/A \right)} {\delta x} = gA \frac{\delta \left( Z_b+h \right)} {\delta x}-S_f 
 
-Can be adapted or adopted for LSM if:
+Can be adapted (or adopted) for LSM if:
 
 .. math::
 
   \frac{\delta Q} {\delta t} \rightarrow 0 \\
   \frac{\delta \left( Q^2/A \right)} {\delta x} \rightarrow 0 \\
   
+Or equivalently:
+
+.. math::
+
+  S_f = gA \frac{\delta \left( Z_b+h \right)} {\delta x} \\
