@@ -1,2 +1,2 @@
-Drones: 3D reconstruction and LSPIV
-====================================
+Drones: terrain reconstruction and flow-speed measurements with LSPIV
+=====================================================================
