@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Flood-Mapping'
-copyright = '2022, IVillanueva'
+copyright = '2022, ivillanueva.earth'
 author = 'IVillanueva'
 
 release = '0.1'
