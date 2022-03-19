@@ -1,5 +1,5 @@
-Conservation laws and Domain meshing
-====================================
+Conservation laws and Domain meshing for numerical simulations
+==============================================================
 
 
 The Time Step issue
