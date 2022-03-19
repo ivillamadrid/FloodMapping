@@ -7,8 +7,8 @@ Common sources and vertical accuracy
 
 
 
-DSM vs DTM
-----------
+DSM filtering to obtain DTM
+---------------------------
 
 
 Training with affordable drones
