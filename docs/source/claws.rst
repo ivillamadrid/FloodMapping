@@ -23,7 +23,7 @@ Which can be discretized (super-index 'n' stands for evolution in time and sub-i
 
 .. math::
 
-  \frac{ A^{n+1}_i - A^{n}_i} {\Delta t} + \frac{Q^{n}_{i-1/2}-Q^{n}_{i+1/2}} {\Delta x}=0 
+  \frac{ A^{n+1}_i - A^{n}_i} {\Delta t} + \frac{Q^{n}_{i+1/2}-Q^{n}_{i-1/2}} {\Delta x}=0 
   
 Which allows for stability if  :math:`CFL \lt 1`
 
@@ -31,7 +31,7 @@ Whereas an implicit discretization scheme, like the box scheme:
 
 .. math::
 
-  \frac{ \left( \Psi A^{n+1}_{i-1} + (1-\Psi) A^{n+1}_i \right)- \left( \Psi A^{n}_{i-1} + (1-\Psi) A^{n}_i \right)} {\Delta t} + \frac{\Theta \left(Q^{n+1}_{i-1}-Q^{n+1}_{i}\right)+(1-\Theta)\left( Q^{n}_{i-1}-Q^{n}_{i}\right)} {\Delta x}=0 
+  \frac{ \left( \Psi A^{n+1}_{i+1} + (1-\Psi) A^{n+1}_i \right)- \left( \Psi A^{n}_{i+1} + (1-\Psi) A^{n}_i \right)} {\Delta t} + \frac{\Theta \left(Q^{n+1}_{i+1}-Q^{n+1}_{i}\right)+(1-\Theta)\left( Q^{n}_{i+1}-Q^{n}_{i}\right)} {\Delta x}=0 
   
 With  :math:`0 \le \Psi \le 1` and :math:`0 \le \Theta \le 1` allows for stability even with :math:`CFL \gt 1`
 
