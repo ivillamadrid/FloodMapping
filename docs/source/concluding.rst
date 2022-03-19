@@ -1,2 +1,2 @@
-Concluding remarks and what is next
+Concluding remarks and what's next
 ===================================
