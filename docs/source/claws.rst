@@ -15,7 +15,7 @@ For an orthogonal or cartesian meshed domain  :math:`\Omega` , the Courant-Fried
 
 Note that if :math:`(\Delta {x, y}\ll, U_{x, y}\gg, h\gg )\Longrightarrow \Delta t \rightarrow 0`
 
-|The time-step governs the mass conservation at every control-volume or cell, for instance in 1D(X):
+The time-step governs the mass conservation at every control-volume or cell, for instance in 1D(X):
 
 .. math::
 
