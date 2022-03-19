@@ -29,4 +29,4 @@ Or equivalently:
   S_f = gA \frac{\delta \left( Z_b+h \right)} {\delta x}\\
 
 
-That links using Manning´s friction formulation the intercell discharge 'Q' to the gradient of stage or water-elevation. 
+That links, using Manning´s friction formulation, the intercell discharge 'Q' to the gradient of stage or water-elevation. 
