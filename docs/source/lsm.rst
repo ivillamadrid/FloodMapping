@@ -6,16 +6,16 @@ it is convenient to reduce the complexity of the shallow water equations (SWE) i
 time-steps for numerical simulations at the expense of loosing accuracy for the speed field pattern or wave propagation time.
 The objective for Large Scale Modelling (LSM) is to maintain critical information like the maximum flood extent and its duration, but none about highly transient states nor dynamics related to fine grid resolutions: trans-critical flows, overtopping, sediment transport and bed river evolution, pollutant dispersion, etc.
  
-Difussion-Wave or Zero-Inertial approximation
+Difussion-Wave or Zero-Inertia approximation
 ---------------------------------------------
 
-The momentum conservation at every control-volume or cell for the SWE equations, 1D(X) case, states:
+The momentum conservation at every control-volume or cell for the full (or complete) SWE equations, 1D(X) case, states:
 
 .. math::
 
   \frac{\delta Q} {\delta t} + \frac{\delta \left( Q^2/A \right)} {\delta x} = gA \frac{\delta \left( Z_b+h \right)} {\delta x}-S_f 
 
-Can be adapted (or adopted) for LSM if:
+Can be adapted (or adopted) for LSM considering:
 
 .. math::
 
