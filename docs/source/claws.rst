@@ -12,8 +12,9 @@ For an orthogonal or cartesian meshed domain  :math:`\Omega` , the Courant-Fried
  \\
  \\
   \Delta t &= min(\Delta t_x, \Delta t_y)_{\Omega}
- 
-And is applied to the mass conservation at every control-volume or cell, for instance in 1D(X):
+
+Note that if :math:`(\Delta {x, y}\ll, U_{x, y}\gg, h\gg )\Longrightarrow \Delta t \rightarrow 0`
+The time-step governs the mass conservation at every control-volume or cell, for instance in 1D(X):
 
 .. math::
 
