@@ -30,3 +30,7 @@ Or equivalently:
 
 
 That links, using Manning´s friction formulation, the intercell discharge 'Q' to the gradient of stage or water-elevation. 
+
+An interesting implicit version of the equation is used by Lisflood-FP [ref.]:
+
+
