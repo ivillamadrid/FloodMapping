@@ -15,7 +15,13 @@ For an orthogonal or cartesian meshed domain  :math:`\Omega` , the Courant-Fried
 
 Note that if :math:`(\Delta {x, y}\ll, U_{x, y}\gg, h\gg )\Longrightarrow \Delta t \rightarrow 0`
 
-The time-step governs the mass conservation at every control-volume or cell, for instance in 1D(X):
+The time-step governs the mass conservation at every control-volume or cell, for instance in 2D(X, Y):
+
+.. math::
+
+  \frac{\delta h} {\delta t} + \frac{\delta hU_x} {\delta x}+ \frac{\delta hU_y} {\delta x}=0 
+
+Whereas for 1D(X):
 
 .. math::
 
@@ -26,16 +32,22 @@ Which can be discretized (super-index 'n' stands for evolution in time and sub-i
 .. math::
 
   \frac{ A^{n+1}_i - A^{n}_i} {\Delta t} + \frac{Q^{n}_{i+1/2}-Q^{n}_{i-1/2}} {\Delta x}=0 
-  
+
+Called explicit because it can be formulated as:
+
+.. math::
+
+  A^{n+1}_i =  A^{n}_i+ \frac{\Delta t}{\Delta x} \left( Q^{n}_{i-1/2}-Q^{n}_{i+1/2} \right) 
+
 Which allows for stability if  :math:`CFL \lt 1`
 
-Whereas an implicit discretization scheme, like the box scheme:
+Whereas an implicit discretization scheme, like the box-scheme:
 
 .. math::
 
   \frac{ \left( \Psi A^{n+1}_{i+1} + (1-\Psi) A^{n+1}_i \right)- \left( \Psi A^{n}_{i+1} + (1-\Psi) A^{n}_i \right)} {\Delta t} + \frac{\Theta \left(Q^{n+1}_{i+1}-Q^{n+1}_{i}\right)+(1-\Theta)\left( Q^{n}_{i+1}-Q^{n}_{i}\right)} {\Delta x}=0 
   
-With  :math:`0 \le \Psi \le 1` and :math:`0 \le \Theta \le 1` allows for stability even with :math:`CFL \gt 1`
+With  spatial weight :math:`0 \le \Psi \le 1`, and implicit parameter :math:`0 \le \Theta \le 1` allows for stability even with :math:`CFL \gt 1`
 
 The price for an implicit scheme, as briefly seen, is that the solving algorithm and coding are more complex but the execution can be faster, depending also on the domain mesh division and its hardware distribution among processing units (CPU, GPU or TPU).
 Particularly, the popular HEC-RAS code uses an implicit scheme formulation.
