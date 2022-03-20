@@ -33,6 +33,8 @@ That links, using Manning´s friction formulation, the intercell discharge 'Q' t
 
 An interesting implicit version of the equation is used by Lisflood-FP [Neal et al., 2012]:
 
+.. math::
+
  q^{n+1}_{i+1/2} =  \frac{q^n_{i+1/2} -g h^n_f \Delta t \grad(Zb+h)}{1+g \Delta t n^2 \frac{ \left|q^n_{i+1/2}\right|}{(h^n_f)^{7/3}}  
 
 
