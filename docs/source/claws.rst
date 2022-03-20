@@ -33,7 +33,7 @@ Which can be discretized (super-index 'n' stands for evolution in time and sub-i
 
   \frac{ A^{n+1}_i - A^{n}_i} {\Delta t} + \frac{Q^{n}_{i+1/2}-Q^{n}_{i-1/2}} {\Delta x}=0 
 
-Called explicit because it can be formulated as:
+Called explicit because the value at 'n+1' can be formulated joining only known terms at 'n' on the right hand side:
 
 .. math::
 
