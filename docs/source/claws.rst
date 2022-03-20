@@ -45,8 +45,8 @@ Whereas an implicit discretization scheme, like the box-scheme:
 
 .. math::
 
-  \frac{ \left( \Psi A^{n+1}_{i+1} + (1-\Psi) A^{n+1}_i \right)- \left( \Psi A^{n}_{i+1} + (1-\Psi) A^{n}_i \right)} {\Delta t} +\\
-  \frac{\Theta \left(Q^{n+1}_{i+1}-Q^{n+1}_{i}\right)+(1-\Theta)\left( Q^{n}_{i+1}-Q^{n}_{i}\right)} {\Delta x}=0 
+  \frac{ \left( \Psi A^{n+1}_{i+1} + (1-\Psi) A^{n+1}_i \right) & - \left( \Psi A^{n}_{i+1} + (1-\Psi) A^{n}_i \right)} {\Delta t} +\\
+  \frac{\Theta \left(Q^{n+1}_{i+1}-Q^{n+1}_{i}\right) & + (1-\Theta)\left( Q^{n}_{i+1}-Q^{n}_{i}\right)} {\Delta x}=0 
   
 With  spatial weight :math:`0 \le \Psi \le 1`, and implicit parameter :math:`0 \le \Theta \le 1` allows for stability even with :math:`CFL \gt 1`
 
