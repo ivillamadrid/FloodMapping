@@ -19,7 +19,7 @@ The time-step governs the mass conservation at every control-volume or cell, for
 
 .. math::
 
-  \frac{\delta h} {\delta t} + \frac{\delta (hU_x)} {\delta x}+ \frac{\delta (hU_y)} {\delta x}=0 
+  \frac{\delta h} {\delta t} + \frac{\delta (hU_x)} {\delta x}+ \frac{\delta (hU_y)} {\delta y}=0 
 
 Whereas we go deeper with the simpler 1D(X) formulation:
 
