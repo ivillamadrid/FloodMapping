@@ -35,7 +35,7 @@ The code Lisflood-FP uses
 
 .. math::
 
- q^{n+1}_{i+1/2} =  \frac{(h^n_f)^(5/3)}{n} \nabla(Zb+h^n)^{1/2}_{i+1/2}  
+ q^{n+1}_{i+1/2} =  \frac{(h^n_f)^5/3}{n} \nabla(Zb+h^n)^{1/2}_{i+1/2}  
 
 And an interesting implicit version 
 
