@@ -29,13 +29,13 @@ Or equivalently:
   S_f = gA \frac{\delta \left( Z_b+h \right)} {\delta x} \equiv gA \nabla (Z_b+h)\\
 
 
-That links, using Manning´s friction formulation, the intercell discharge 'Q' to the gradient of stage or water-elevation. 
+That links, using Manning´s friction formulation with 'n' coefficient, the intercell discharge 'q' to the gradient of stage or water-elevation. 
 
 The code Lisflood-FP uses
 
 .. math::
 
- q^{n+1}_{i+1/2} =  \frac{q^n_{i+1/2} -g h^n_f \Delta t \nabla(Zb+h^n)_{i+1/2}}{1+g \Delta t \frac{n^2  \left|q^n_{i+1/2}\right|}{(h^n_f)^{7/3}}}  
+ q^{n+1}_{i+1/2} =  \frac{(h^n_f)^(5/3)}{n} \nabla(Zb+h^n)^{1/2}_{i+1/2}  
 
 And an interesting implicit version 
 
