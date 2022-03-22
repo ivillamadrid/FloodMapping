@@ -58,9 +58,9 @@ The combination of bands that defines the Modified Normalized Difference Water I
  MNDWI=\frac{B_3-B_{11}}{B_3+B_{11}}
  
  
- See for more details `Cordeiro et al, 2021`_ .
+See for more details `Cordeiro et al, 2021`_ .
  
- .. _Cordeiro et al, 2021: https://doi.org/10.1016/j.rse.2020.112209 
+.. _Cordeiro et al, 2021: https://doi.org/10.1016/j.rse.2020.112209 
 
 Image processing: noise filtering
 ---------------------------------
