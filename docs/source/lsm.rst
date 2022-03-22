@@ -51,7 +51,16 @@ See for more details `Neal et al, 2012`_ .
 Satellite Optical and IR bands to detect water bodies: MNDWI index
 -------------------------------------------------------------------
 
-The combination of bands that 
+The combination of bands that defines the Modified Normalized Difference Water Index (MNDWI) is visible green (537-582 nm) and short-wave infrared (1539-1681 nm), that in case of the Sentinel-2 MSI are B3 and B11 respectively:
+
+.. math::
+
+ MNDWI=\frac{B_3-B_11}{B_3+B_11}
+ 
+ 
+
+Image processing: noise filtering
+---------------------------------
 
 Image processing: Edge detectors and buffers
 --------------------------------------------
