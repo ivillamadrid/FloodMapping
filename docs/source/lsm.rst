@@ -57,12 +57,14 @@ The combination of bands that defines the Modified Normalized Difference Water I
 
  MNDWI=\frac{B_3-B_{11}}{B_3+B_{11}}
  
- 
+ See for more details `Cordeiro et al, 2021`_ .
+
+.. _Cordeiro et al, 2021: https://doi.org/10.1016/j.rse.2020.112209 
 
 Image processing: noise filtering
 ---------------------------------
 
-Image processing: Edge detectors and buffers
+Image processing: edge detectors and buffers
 --------------------------------------------
 
 In order to estimate the water depth related to the water surface recorded by satellite imagery (with no altimetry, ie Multi-Spectral or SAR backscatter), a base DTM is needed.
