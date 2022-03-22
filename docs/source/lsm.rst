@@ -48,3 +48,14 @@ See for more details `Neal et al, 2012`_ .
 
 .. _Neal et al, 2012: https://doi.org/10.1029/2012WR012514
 
+Satellite Optical and IR bands to detect water bodies: MNDWI index
+-------------------------------------------------------------------
+
+The combination of bands that 
+
+Image processing: Edge detectors and buffers
+--------------------------------------------
+
+In order to estimate the water depth related to the water surface recorded by satellite imagery (with no altimetry, ie Multi-Spectral or SAR backscatter), a base DTM is needed.
+
+
