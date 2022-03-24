@@ -15,6 +15,26 @@ The momentum conservation at every control-volume or cell for the full (or compl
 
   \frac{\delta Q} {\delta t} + \frac{\delta \left( Q^2/A \right)} {\delta x} = gA \frac{\delta \left( Z_b+h \right)} {\delta x}-S_f 
 
+.. list-table:: 
+   :widths: 10 20
+   :header-rows: 1
+
+   * - Symbol
+     - Variable and dimension
+     
+   * - Q
+     - discharge (m^3/s), Q=A*v
+   * - A
+     - area      (m^2)
+   * - Zb
+     - Bed level (m)
+   * - h
+     - water depth (m)
+   * - S_f
+     - friction (m^3/s^2)
+   * - g
+     - gravity constant (m/s^2)
+
 Can be adapted (or adopted) for LSM considering the inertial (or acceleration) terms vanish:
 
 .. math::
