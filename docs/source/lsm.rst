@@ -71,7 +71,11 @@ Image processing: edge detectors and buffers
 In order to estimate the water depth related to the water surface recorded by satellite imagery (with no altimetry, ie Multi-Spectral or SAR backscatter), a base DTM is needed.
 
 
-AI to train, validate and test surface water layers
----------------------------------------------------
+AI to train and validate global surface water mapping
+-----------------------------------------------------
+See for more details the `JRC database`_ .
+ 
+.. _JRC database: https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_3_GlobalSurfaceWater?hl=en 
+
 
 
