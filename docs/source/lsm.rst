@@ -23,14 +23,14 @@ The momentum conservation at every control-volume or cell for the full (or compl
      - Variable and dimension
      
    * - Q
-     - discharge (m^3/s), :math: Q=Av
+     - discharge (m^3/s), Q=Av
    * - A
      - area      (m^2)
    * - Zb
-     - Bed level (m)
+     - bed level (m)
    * - h
      - water depth (m)
-   * - :math: S_f
+   * - Sf
      - friction (m^3/s^2)
    * - g
      - gravity constant (m/s^2)
