@@ -6,5 +6,5 @@ Remote Sensing Mapping vs Numerical Modelling
 ---------------------------------------------
 
 
-Integration within Early Warning Systems
-----------------------------------------
+Real Time Integration: Early Warning Systems
+--------------------------------------------
