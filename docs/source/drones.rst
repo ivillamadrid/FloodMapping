@@ -7,6 +7,6 @@ In this section we practice with High-Quality drone imagery and the RIVeR softwa
 
 Based in `PIV-lab`_ .
 
-.. _PIV-lab: https://riverdischarge.blogspot.com/
+.. _PIV-lab: https://pivlab.blogspot.com/
 
 
