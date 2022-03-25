@@ -16,5 +16,5 @@ Training with affordable drones
 
 In this section we practice with High-Quality drone imagery and the Open-Drone-Map software (`ODM`_).
 
-`ODM: https://opendronemap.org/'_
+.. _ODM: https://opendronemap.org/'
 
