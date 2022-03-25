@@ -57,14 +57,14 @@ The code Lisflood-FP uses
 
 .. math::
 
- q^{n+1}_{i+1/2} =  \frac{(h^n_f)^{5/3}}{n} \nabla(Zb+h^n)^{1/2}_{i+1/2}  
+ q^{n+1}_{i+1/2} =  \frac{(h^n_f)^{5/3}}{n} \nabla(Z_b+h^n)^{1/2}_{i+1/2}  
 
 
 With the flow-depth  as
 
 .. math::
 
- h^n_f=max \left( (Zb+h^n)_i, (Zb+h^n)_{i+1}\right)-max \left((Z_b)_i, (Z_b)_{i+1} \right)
+ h^n_f=max \left( (Z_b+h^n)_i, (Z_b+h^n)_{i+1}\right)-max \left((Z_b)_i, (Z_b)_{i+1} \right)
  
 And an interesting implicit version 
 
