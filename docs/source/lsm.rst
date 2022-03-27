@@ -55,8 +55,8 @@ That links friction slope with stage gradient. Using empirical Manning´s formul
 
 .. math::
 
-  S_{f-1D}=n^2 \frac{Q \left| Q \right| }{A^2 R^{4/3}} \\
-  S_{f-2D, x, y}=n^2 \frac{U_{x, y} \sqrt(U_x^2+U_y^2) }{h^{4/3}} \\
+  S_{f1D}=n^2 \frac{Q \left| Q \right| }{A^2 R^{4/3}} \\
+  S_{f2D, x, y}=n^2 \frac{U_{x, y} \sqrt{U_x^2+U_y^2} }{h^{4/3}} \\
 
 
 allows to define the intercell discharge 'q'. For instance, the 2D code Lisflood-FP uses
