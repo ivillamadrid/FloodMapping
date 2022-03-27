@@ -33,7 +33,7 @@ The momentum conservation at every control-volume or cell for the full (or compl
      - h
      - water depth (m)
    * - Sf
-     - friction (m^3/s^2)
+     - friction slope (m^3/s^2)
      - g
      - gravity constant (m/s^2)
 
@@ -51,9 +51,12 @@ Or equivalently:
   S_f = gA \frac{\delta \left( Z_b+h \right)} {\delta x} \equiv gA \nabla (Z_b+h)\\
 
 
-That links, using Manning´s friction formulation with 'n' coefficient, the intercell discharge 'q' to the gradient of stage or water-elevation. 
+That links, using empirical Manning´s friction formulation with 'n' as roughness coefficient, :math: S_f=
 
-The code Lisflood-FP uses
+
+the intercell discharge 'q' to the gradient of stage or water-elevation. 
+
+The 2D code Lisflood-FP uses
 
 .. math::
 
