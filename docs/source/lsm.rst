@@ -51,12 +51,12 @@ Or equivalently:
   S_f = gA \frac{\delta \left( Z_b+h \right)} {\delta x} \equiv gA \nabla (Z_b+h)\\
 
 
-That links friction slope with stage gradient. Using empirical Manning´s formulation with 'n' as roughness coefficient,  1D or 2D:
+That links friction slope with stage gradient. Using empirical Manning´s formulation with 'n' as roughness coefficient,  1D(X) or 2D(X, Y):
 
 .. math::
 
-  S_{f1D}=n^2 \frac{Q \left| Q \right| }{A^2 R^{4/3}} \\
-  S_{f2D, x, y}=n^2 \frac{U_{x, y} \sqrt{U_x^2+U_y^2} }{h^{4/3}} \\
+  S_{f}=n^2 \frac{Q \left| Q \right| }{A^2 R^{4/3}} 
+  S_{f, x, y}=n^2 \frac{U_{x, y} \sqrt{U^2_x+U^2_y} }{h^{4/3}} 
 
 
 allows to define the intercell discharge 'q'. For instance, the 2D code Lisflood-FP uses
