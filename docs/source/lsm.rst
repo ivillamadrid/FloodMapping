@@ -51,8 +51,10 @@ Or equivalently:
   S_f = gA \frac{\delta \left( Z_b+h \right)} {\delta x} \equiv gA \nabla (Z_b+h)\\
 
 
-That links friction slope with stage gradient. Using empirical Manning´s formulation with 'n' as roughness coefficient, in 1D 
-:math: S_f=n^2 \frac{Q \left| Q \right| }{A^2 R^{4/3}} 
+That links friction slope with stage gradient. Using empirical Manning´s formulation with 'n' as roughness coefficient,  1D case: 
+.. math::
+
+ S^{1D}_f=n^2 \frac{Q \left| Q \right| }{A^2 R^{4/3}} 
 
 allows to define the intercell discharge 'q'. 
 
