@@ -13,4 +13,7 @@ At this early point it is important to think if your study case will need to eva
   :width: 400
   :alt: Advance over flat and dry bottom 
 
-Dam-break advance with speed :math:`2c_1` over flat, frictionless and dry bottom, being the celerity value :math:`c_1=\sqrt{gh_1}`
+Dam-break advance with speed :math:`2c_1` over flat, frictionless and dry bottom, being the celerity value :math:`c_1=\sqrt{gh_1}`.
+
+Some typical scenarios where is not a key element the whole dynamics: rivers across large floodplains with many hours of routing, etc.
+And scenarios where the propagation of fronts and discontinuities is relevant are: urban flash floods, narrow and steep valleys downstream dam structures, etc. 
