@@ -11,3 +11,4 @@ At this early point it is important to think if your study case will need to eva
 
 .. image:: DamBreak_Fig-10p8p5.png
   :width: 400
+  :alt: :math: c_1=\sqrt{gh_1} 
