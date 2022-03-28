@@ -12,3 +12,5 @@ At this early point it is important to think if your study case will need to eva
 .. image:: DamBreak_Fig-10p8p5.png
   :width: 400
   :alt: Advance over flat and dry bottom, the value of celerity is :math: c_1=\sqrt{gh_1} 
+
+Dam-break advance over flat and dry bottom, the value of celerity is :math: c_1=\sqrt{gh_1}
