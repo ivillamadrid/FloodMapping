@@ -67,4 +67,4 @@ One overall value to check at the end of every simulation is the mass conservati
 
 .. math::
 
-  V^{T} -V^{1} =  \sum{Q_{input} \Delta t}} - \sum{Q_{output} \Delta t}}
+  V^{T} -V^{1} =  \sum{Q_{input} \Delta t} - \sum{Q_{output} \Delta t}
