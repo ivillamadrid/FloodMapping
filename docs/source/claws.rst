@@ -2,8 +2,8 @@ Conservation laws and Domain meshing for numerical simulations
 ==============================================================
 
 
-Mass conservation or mass balance
-----------------------------------
+Mass and momentum conservation
+-------------------------------
 
 
 The Time Step issue
@@ -58,4 +58,13 @@ The price for an implicit scheme, as briefly seen, is that the solving algorithm
 Particularly, the popular HEC-RAS code uses an implicit scheme formulation.
 
 Note we did not consider the conservation of momentum, for the sake of simplicity in the formulation.
-To know more visit:
+To know more visit[]
+
+Simulation mass balance
+-----------------------
+
+One overall value to check at the end of every simulation is the mass conservation applied to the entire domain:
+
+.. math::
+
+  V^{T} -V^{1} =  \sum{Q_{input} \Delta t}} - \sum{Q_{output} \Delta t}}
