@@ -13,4 +13,4 @@ At this early point it is important to think if your study case will need to eva
   :width: 400
   :alt: Advance over flat and dry bottom 
 
-Dam-break advance over flat and dry bottom, with celerity value :math:`c_1=\sqrt{gh_1}`
+Dam-break advance with speed :math:`2c_1` over flat and dry bottom, being the celerity value :math:`c_1=\sqrt{gh_1}`
