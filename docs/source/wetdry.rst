@@ -16,4 +16,4 @@ At this early point it is important to think if your study case will need to eva
 Dam-break advance with speed :math:`2c_1` over flat, frictionless and dry bottom, being the celerity value :math:`c_1=\sqrt{gh_1}`.
 
 Some typical scenarios where the whole dynamics is not essential, are rivers across large floodplains with many days of routing, or when the available 
-digital elevation model is coarse or not accurate. And scenarios where the propagation of fronts and discontinuities is relevant are: urban flash floods, narrow and steep valleys downstream dam structures, tsunamis, etc. 
+digital elevation model is coarse or not accurate, whereas the propagation of fronts and discontinuities is relevant in: urban flash floods and surface drainage systems, narrow and steep valleys downstream dam structures, tsunamis, etc. 
