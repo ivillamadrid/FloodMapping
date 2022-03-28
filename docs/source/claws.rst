@@ -2,6 +2,10 @@ Conservation laws and Domain meshing for numerical simulations
 ==============================================================
 
 
+Mass conservation or mass balance
+----------------------------------
+
+
 The Time Step issue
 -------------------
 For an orthogonal or cartesian meshed domain  :math:`\Omega` , the Courant-Friedrichs-Levy criteria defines a CFL coefficient that linearly weights the time-step :
