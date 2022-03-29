@@ -18,3 +18,5 @@ In this section we practice with High-Quality drone imagery and the Open-Drone-M
 
 .. _ODM: https://opendronemap.org/'
 
+One detailed study case is the Chosica district, at Lima, Perú.
+
