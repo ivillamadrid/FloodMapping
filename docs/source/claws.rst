@@ -63,11 +63,11 @@ To know more visit[]
 Simulation mass balance
 -----------------------
 
-One overall value to check at the end of every simulation is the mass conservation applied to the entire domain:
+One overall value to check at the end of every simulation is the mass conservation applied to the entire domain for accounting the difference of volume, and all the inflows and outflows across the boundaries.
 
 .. math::
 
-  V^{T} -V^{1} =  \sum_k{Q^k_{in} \Delta t_k} - \sum_k{Q^k_{out} \Delta t_k}
+  V^{T} -V^{0} =  \sum_k{Q^k_{in} \Delta t_k} - \sum_k{Q^k_{out} \Delta t_k}
  
 Where
 
