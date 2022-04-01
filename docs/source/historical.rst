@@ -6,3 +6,5 @@ and the observed-estimated or forecasted, flow into the river from its tributari
 
 
 After more than 60 years of Stoker practices, the digital era with open access RS data and affordable computing processors, has popularized the Flood-Mapping science, a state of the art methodology can be found in "Flood Inundation Prediction" by Bates (2022), being the main challenges to face: 
+
+* Rationalize and properly select among the considerable bulk of observational data
