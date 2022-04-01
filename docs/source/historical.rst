@@ -9,4 +9,4 @@ After more than 60 years of Stoker practices, the digital era with open access R
 
 * Rationalize and properly select among the considerable bulk of observational data, including the imagery to validate predictions.
 
-* Match the numerical engine which describes best the physical process, to the available terrain model (resolution and accuracy) and temporal scales, assuming the computational cost. In general relaxing the grid resolution to coarse pixels, allows to validate more parameters and scenarios, that for hazard mapping related to Climate Change at large scale is very relevant, but non-appropriate for local hydraulic modelling.
+* Match the numerical engine which describes best the physical process, to the available terrain model (resolution and accuracy) and temporal scales, assuming the computational cost. In general relaxing the grid resolution to coarse pixels, allows to validate more parameters and scenarios, that for large scale hazard mapping related to Climate Change is very relevant, but non-appropriate for local hydraulic modelling.
