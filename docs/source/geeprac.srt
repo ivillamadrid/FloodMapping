@@ -1,5 +1,0 @@
-Google-Earth-Engine practical cases
-===================================
-
-To illustrate the use of the discussed concepts for satellite imagery processing a few cases have been selected.
-A Google-Earth-Engine account is required to map and process data.
