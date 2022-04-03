@@ -98,7 +98,7 @@ See for more details `Cordeiro et al, 2021`_ .
  
 .. _Cordeiro et al, 2021: https://doi.org/10.1016/j.rse.2020.112209 
 
-It is a relatively easy way of processing and detecting water surfaces over a certain "MNDWI" threshold value, in fact the problem is to detect accurately the dry-wet boundaries, and there the computational vision techniques for noise filtering and edge detectors play a major role.
+It is a relatively easy way of processing and detecting water surfaces over a certain "MNDWI" threshold value, in fact the problem is to detect accurately the dry-wet boundaries, and there the computational vision techniques for noise filtering and edge detectors play a major role. See the practical case with Google-Earth-Engine for "Paso de las Piedras" reservoir, Bahía Blanca, Argentina.
 
 Image processing: noise filtering
 ---------------------------------
