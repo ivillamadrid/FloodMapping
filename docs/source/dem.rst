@@ -10,9 +10,9 @@ Common sources and vertical accuracy
   :width: 400
   :alt: Vertical accuracy, scales and common techs.
 
-DEMs: spatial resolution and vertical accuracy for different RS techniques and scales of application. From `Schumann & Bates`_
+DEMs: spatial resolution and vertical accuracy for different RS techniques and scales of application. From `Schumann & Bates, 2018`_
 
-.. _Schumann & Bates: https://doi.org/10.3389/feart.2018.00225
+.. _Schumann & Bates, 2018: https://doi.org/10.3389/feart.2018.00225
 
 
 DSM filtering to obtain DTM
