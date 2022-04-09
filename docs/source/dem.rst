@@ -10,7 +10,7 @@ Common sources and vertical accuracy
   :width: 400
   :alt: Vertical accuracy, scales and common techs.
 
-DEMS: spatial resolution and vertical accuracy for different scales of application. From `Schumann & Bates`_
+DEMs: spatial resolution and vertical accuracy for different RS techniques and scales of application. From `Schumann & Bates`_
 
 .. _Schumann & Bates: https://doi.org/10.3389/feart.2018.00225
 
