@@ -18,6 +18,13 @@ DEMs: spatial resolution and vertical accuracy for different RS techniques and s
 DSM filtering to obtain DTM
 ---------------------------
 
+.. image:: DSM_DTM_Guth_et_al_2021.png
+  :width: 400
+  :alt: DSM & DTM.
+ 
+ In Terminology and Definitions for Digital Elevation Models, from _`Guth et al, 2021`_ 
+ 
+ .. _Guth et al, 2021:  https://doi.org/10.3390/rs13183581 
 
 Training with affordable drones
 -------------------------------
