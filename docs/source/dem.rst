@@ -23,9 +23,9 @@ DSM filtering to obtain DTM
   :alt: DSM & DTM.
   
  
-In Terminology and Definitions for Digital Elevation Models, from _`Guth et al, 2021`_ 
+In Terminology and Definitions for Digital Elevation Models, from _`Guth et al, 2021`_
  
- .. _Guth et al, 2021:  https://doi.org/10.3390/rs13183581 
+.. _Guth et al, 2021: https://doi.org/10.3390/rs13183581
 
 
 Training with affordable drones
