@@ -6,6 +6,13 @@ Common sources and vertical accuracy
 ------------------------------------
 
 
+.. image:: VAccuracy-Scales_Schumann-Bates_2018.png
+  :width: 400
+  :alt: Vertical accuracy, scales and common techs.
+
+DEMS: spatial resolution and vertical accuracy for different scales of application. From `Schumann & Bates`_
+.. _Schumman & Bates: https://doi.org/10.3389/feart.2018.00225'
+
 
 DSM filtering to obtain DTM
 ---------------------------
