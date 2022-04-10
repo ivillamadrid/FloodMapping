@@ -11,7 +11,7 @@ After more than 60 years of Stoker practices, the digital era with open access R
 
 * Match the numerical engine which describes best the physical process, to the available terrain model (resolution and accuracy) and temporal scales, assuming the computational cost. In general relaxing the grid resolution to coarse pixels, allows to validate more parameters and scenarios, that for large scale hazard mapping related to Climate Change is very relevant, but non-appropriate for local hydraulic modelling.
 
-.. Stoker: https://doi.org/10.1002/9781118033159
+.. _Stoker: https://doi.org/10.1002/9781118033159
 
-.. Bates, 2022: https://doi.org/10.1146/annurev-fluid-030121-113138
+.. _Bates, 2022: https://doi.org/10.1146/annurev-fluid-030121-113138
 
