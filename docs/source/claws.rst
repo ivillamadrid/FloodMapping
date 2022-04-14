@@ -2,8 +2,10 @@ Conservation laws and Domain meshing for numerical simulations
 ==============================================================
 
 
-Different meshes
-----------------
+Type of mesh
+------------
+
+
 
 
 Triangular based meshes.
