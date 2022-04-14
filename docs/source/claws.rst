@@ -5,7 +5,9 @@ Conservation laws and Domain meshing for numerical simulations
 Type of mesh
 ------------
 
-
+.. image:: TriangularMeshes.png
+  :width: 400
+  :alt: Typical triangular based meshes
 
 
 Triangular based meshes.
