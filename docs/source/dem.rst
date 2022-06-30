@@ -38,5 +38,6 @@ In this section we practice with High-Quality drone imagery and the Open-Drone-M
 
 Post-flood disaster evaluation study
 ------------------------------------
-As example to merge all the discussed technologies and have a clear distribution of the project time-line, a study case is analysed.
+As example to show how the discussed technologies are combined in order to manage and plan a project, a study case is analysed.
+
 
