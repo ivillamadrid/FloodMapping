@@ -40,4 +40,8 @@ Post-flood disaster evaluation study
 ------------------------------------
 As example to show how the discussed technologies are combined in order to manage and plan a project, a study case is analysed.
 
+.. image:: Melamchi_Post-Flood.png
+  :width: 600
+  :alt: Melamchi.
+
 
