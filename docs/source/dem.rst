@@ -36,5 +36,7 @@ In this section we practice with High-Quality drone imagery and the Open-Drone-M
 
 .. _ODM: https://opendronemap.org/'
 
-One detailed study case is the Chosica district, at Lima, Perú.
+Post-flood disaster evaluation study
+------------------------------------
+As example to merge all the discussed technologies and have a clear distribution of the project time-line, a study case is analysed.
 
