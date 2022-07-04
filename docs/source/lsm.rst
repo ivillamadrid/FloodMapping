@@ -107,17 +107,17 @@ Image processing: noise filtering
 
 Image processing: edge detectors and buffers
 --------------------------------------------
-To locate the wet-dry boundaries a 2D convolution operator is set to identify that pattern across the domain, this is an image processing technique commonly used, that for every pixel of the domain weights the surrounding pixels according to a defined Kernel.
+To locate the wet-dry boundaries a 2D convolution operator is set to identify that particular pattern across the domain, this is an image processing technique commonly used, that for every pixel of the domain weights the surrounding pixels according to a defined Kernel.
 For instance to detect a North dry-wet edge, a 3x3 kernel can be set to {[1, 1, 1], [-1, -1, -1 ], [0, 0, 0]} and subsequently applied to a MNDWI or back-scatter Water-Depth layer,  to detect negative values below a threshold which are candidates to represent a North dry-wet bound. 
 
-The following image summarizes the Kernel filtering over a raster image:
+The following image summarizes the action of a Kernel (Sobel-Gaussian) filtering over a source image:
 
 .. image:: Convolution-2D_Kernel-SobelGx.png
   :width: 400
   :alt: Convolution
 
 
-In order to estimate the water depth related to the water surface recorded by satellite imagery (with no altimetry, ie Multi-Spectral or SAR backscatter), a base DTM or raster elevation is needed, where the 2D-convolution operator is applied using a Kernel that weights the terrain neighbours to have a mean value of the bottom. 
+In order to estimate the water depth related to the water surface recorded by satellite imagery (with no altimetry, ie Multi-Spectral or SAR backscatter), a base DTM or raster elevation is needed, where the 2D-convolution operator is applied using a Kernel that weights the terrain neighbours to have a mean value of the bottom, with special treatment to have extra-accuracy at dry-wet boundaries, river banks or embankments. 
 
 
 AI to train and validate global surface water mapping
