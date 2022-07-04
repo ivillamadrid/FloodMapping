@@ -107,8 +107,12 @@ Image processing: noise filtering
 
 Image processing: edge detectors and buffers
 --------------------------------------------
+To locate the wet-dry boundaries a 2D convolution operator is set to identify that pattern across the domain, this is an image processing technique commonly used, that for every pixel of the domain weights the surrounding pixels according to a defined Kernel.
+For instance to detect a North dry-wet edge, a 3x3 kernel can be set to {[1, 1, 1], [-1, -1, -1 ], [0, 0, 0]} and subsequently applied to a MNDWI or back-scatter Water-Depth layer,  to detect negative values below a threshold which are candidates to represent a North dry-wet bound. 
 
-In order to estimate the water depth related to the water surface recorded by satellite imagery (with no altimetry, ie Multi-Spectral or SAR backscatter), a base DTM is needed.
+The following image summarizes the Kernel filtering over a raster image:
+
+In order to estimate the water depth related to the water surface recorded by satellite imagery (with no altimetry, ie Multi-Spectral or SAR backscatter), a base DTM or raster elevation is needed, where the 2D-convolution operator is applied using a Kernel that weights the terrain neighbours to have a mean value of the bottom. 
 
 
 AI to train and validate global surface water mapping
