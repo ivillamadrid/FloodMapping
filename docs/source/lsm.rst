@@ -112,6 +112,11 @@ For instance to detect a North dry-wet edge, a 3x3 kernel can be set to {[1, 1, 
 
 The following image summarizes the Kernel filtering over a raster image:
 
+.. image:: Convolution-2D_Kernel-SobelGx.png
+  :width: 400
+  :alt: Convolution
+
+
 In order to estimate the water depth related to the water surface recorded by satellite imagery (with no altimetry, ie Multi-Spectral or SAR backscatter), a base DTM or raster elevation is needed, where the 2D-convolution operator is applied using a Kernel that weights the terrain neighbours to have a mean value of the bottom. 
 
 
