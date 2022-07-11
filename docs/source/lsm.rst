@@ -104,6 +104,8 @@ It is a relatively easy way of processing and detecting water surfaces over a ce
 
 Image processing: noise filtering
 ---------------------------------
+Multi-Spectral and Panchromatic imagery are subject to the presence of cloud cover, whereas SAR microwaves are not perturbed. For the former group
+access to Pre-event images or filtering techniques are needed. The presence of vegetation over water bodies is a common and frequent source of noise for any exploitation of remote sensing imagery. 
 
 Image processing: edge detectors and buffers
 --------------------------------------------
