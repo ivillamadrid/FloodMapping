@@ -98,7 +98,7 @@ See for more details `Cordeiro et al, 2021`_ .
  
 .. _Cordeiro et al, 2021: https://doi.org/10.1016/j.rse.2020.112209 
 
-It is a relatively easy way of processing and detecting water surfaces over a certain "MNDWI" threshold value, in fact the problem is to detect accurately the dry-wet boundaries, and there the computational vision techniques for noise filtering and edge detectors play a major role. See the practical case with Google-Earth-Engine for `Paso de las Piedras`_ reservoir, Bahía Blanca, Argentina.
+It is a relatively easy way of processing and detecting water surfaces over a certain "MNDWI" threshold value, coping with bimodal pixel distributions and the Otsu optimal threshold, in fact the problem is to detect accurately the dry-wet boundaries, and there the computational vision techniques for noise filtering and edge detectors play a major role. See the practical case with Google-Earth-Engine for `Paso de las Piedras`_ reservoir, Bahía Blanca, Argentina.
 
 .. _Paso de las Piedras: https://www.researchgate.net/publication/357174237_Prototipo_Google-Earth-Engine_para_el_modelado_hidrologico_del_embalse_Paso_de_Las_Piedras_Argentina
 
