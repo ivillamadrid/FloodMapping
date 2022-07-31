@@ -10,7 +10,7 @@ Type of mesh
   :alt: Typical triangular based meshes
 
 
-Triangular based meshes for 2D domains.
+Triangular based meshes for 2D domains, to discretize the mass and momentum differential equations.
 
 Practical approach: hybrids
 The river main channel interaction with the floodplain by overtopping embankments or levees can be modelled using a combination of cells (quadrilateral or triangular) wich will require higher density of cells in the transitions or when the speed pattern is expected to be more complex or less uniform in space.
