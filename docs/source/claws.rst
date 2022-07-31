@@ -10,7 +10,15 @@ Type of mesh
   :alt: Typical triangular based meshes
 
 
-Triangular based meshes.
+Triangular based meshes for 2D domains.
+
+Practical approach: hybrids
+The river main channel interaction with the floodplain by overtopping embankments or levees can be modelled using a combination of cells (quadrilateral or triangular) wich will require higher density of cells in the transitions or when the speed pattern is expected to be more complex or less uniform in space.
+
+For instance RSH-2D (US Bureau of Reclamation, 2008) combines quadrilateral cells along the main channel and levees but mixed coarser cells at the plains.
+.. image:: SRH-Hybrid.png
+  :width: 400
+  :alt: SRH
 
 Mass and momentum conservation
 -------------------------------
