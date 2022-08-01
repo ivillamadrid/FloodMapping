@@ -5,7 +5,7 @@ Any conservation law for fluid motion can be expressed in conservative formulati
 
 .. math::
 
-   \frac{\Delta U} {\Delta t} + \frac{\Delta F} {\Delta x} + \frac{\Delta G} {\Delta y}=H 
+   \frac{\delta U} {\delta t} + \frac{\delta F} {\delta x} + \frac{\delta G} {\delta y}=H 
 
 Where U is the vector of conservative variables, F and G are flows in X and Y directions respectively, and H is a source term.
 The differential solvers are evaluated across neighbouring cells of a domain or mesh, that historically have been evolving from quadrilateral to triangular shapes.
