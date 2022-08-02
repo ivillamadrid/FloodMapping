@@ -22,7 +22,7 @@ Triangular based meshes for 2D domains, to discretize the mass and momentum diff
 
 Practical approach: hybrids
 ---------------------------
-The river main channel interaction with the floodplain by overtopping embankments or levees can be modelled using a combination of cells (quadrilateral or triangular) wich will require higher density of cells in the transitions or when the speed pattern is expected to be more complex or less uniform in space. The whole domain can be seen as a 1D conduit plus a 2D plain: 
+The river main channel interaction with the floodplain by overtopping embankments or levees can be modelled using a combination of cells (quadrilateral or triangular) which will require higher density of cells in the transitions or when the speed pattern is expected to be more complex or less uniform in space. The whole domain can be seen as a 1D conduit plus a 2D plain: 
 
 .. image:: 1Dv2D_chFP.png
   :width: 400
