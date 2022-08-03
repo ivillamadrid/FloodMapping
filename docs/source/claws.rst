@@ -1,6 +1,8 @@
 Conservation laws and Domain meshing for numerical simulations
 ==============================================================
 
+Mass and momentum conservation
+-------------------------------
 Any conservation law for fluid motion can be expressed in conservative formulation as a partial differential equation (PDE), that in case of a depth-averaged model in a 2D or X-Y plane is written as:
 
 .. math::
@@ -84,8 +86,7 @@ Or the widespread non-structured triangular mesh for the whole domain, also know
   :width: 400
   :alt: SRH
 
-Mass and momentum conservation
--------------------------------
+
 
 
 The Time Step issue
