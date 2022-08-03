@@ -11,11 +11,11 @@ Where U is the vector of conservative variables, F and G are flows in X and Y di
 
 .. math::
    
-   U &=(h, hu, hv)^T
+   U &=(h, hU_x, hU_y)^T
 
-   F &=(hu, hu^2+\frac{1}{2}gh^2, huv)^T
+   F &=(hU_x, hU^2_x+\frac{1}{2}gh^2, hU_xU_y)^T
    
-   G &=(hv, hvu, hv^2+\frac{1}{2}gh^2)^T
+   G &=(hU_y, hU_yU_x, hU^2_y+\frac{1}{2}gh^2)^T
    
    H &=(0, gh(So_x-Sf_x), gh(So_y-Sf_y))^T
 
@@ -33,17 +33,17 @@ Where U is the vector of conservative variables, F and G are flows in X and Y di
      - water depth (m)
      -
      -
-   * - u
+   * - Ux
      - X-velocity (m/s)
-     - v
+     - Uy
      - Y-velocity (m/s)
-   * - So_x
+   * - Sox
      - X-Slope ()
-     - So_y
+     - Soy
      - Y-Slope ()
-   * - Sf_x
+   * - Sfx
      - X-friction slope (m^3/s^2)
-     - Sf_y
+     - Sfy
      - Y-friction slope (m^3/s^2)
    * - g
      - gravity constant (m/s^2)  
