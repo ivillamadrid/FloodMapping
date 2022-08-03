@@ -13,7 +13,9 @@ Where U is the vector of conservative variables, F and G are flows in X and Y di
    
    U=(h, hu, hv)^T
 
-   F=(hu, hu^2+\frac{1gh^2}{2}, hv)^T
+   F=(hu, hu^2+\frac{1}{2}gh^2, huv)^T
+   
+   G=(hv, hvu, hv^2+\frac{1}{2}gh^2)^T
    
 
 The differential solvers are evaluated across neighbouring cells of a domain or mesh, that historically have been evolving from quadrilateral to triangular shapes.
