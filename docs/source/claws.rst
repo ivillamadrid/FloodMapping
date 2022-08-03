@@ -41,10 +41,14 @@ Where U is the vector of conservative variables, F and G are flows in X and Y di
      - X-Slope ()
      - So_y
      - Y-Slope ()
-   * - Sf
-     - friction slope (m^3/s^2)
-     - g
+   * - Sf_x
+     - X-friction slope (m^3/s^2)
+     - Sf_y
+     - Y-friction slope (m^3/s^2)
+   * - g
      - gravity constant (m/s^2)  
+     -
+     -
    
 
 The differential solvers are evaluated across neighbouring cells of a domain or mesh, that historically have been evolving from quadrilateral to triangular shapes.
