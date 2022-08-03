@@ -31,6 +31,8 @@ Where U is the vector of conservative variables, F and G are flows in X and Y di
      
    * - h
      - water depth (m)
+     -
+     -
    * - u
      - X-velocity (m/s)
      - v
