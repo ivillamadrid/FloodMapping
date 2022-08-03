@@ -19,7 +19,29 @@ Where U is the vector of conservative variables, F and G are flows in X and Y di
    
    H &=(0, gh(So_x-Sf_x), gh(So_y-Sf_y))^T
    
-  
+.. list-table:: 
+   :widths: 10 20 10 20
+   :header-rows: 1
+
+   * - Symbol
+     - Variable and dimension
+     - Symbol
+     - Variable and dimension
+     
+   * - h
+     - water depth (m)
+   * - u
+     - X-velocity (m/s)
+     - v
+     - Y-velocity (m/s)
+   * - So_x
+     - X-Slope ()
+     - So_y
+     - Y-Slope ()
+   * - Sf
+     - friction slope (m^3/s^2)
+     - g
+     - gravity constant (m/s^2)  
    
 
 The differential solvers are evaluated across neighbouring cells of a domain or mesh, that historically have been evolving from quadrilateral to triangular shapes.
