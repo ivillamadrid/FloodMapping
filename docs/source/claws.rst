@@ -11,13 +11,13 @@ Where U is the vector of conservative variables, F and G are flows in X and Y di
 
 .. math::
    
-   U=(h, hu, hv)^T
+   U &=(h, hu, hv)^T
 
-   F=(hu, hu^2+\frac{1}{2}gh^2, huv)^T
+   F &=(hu, hu^2+\frac{1}{2}gh^2, huv)^T
    
-   G=(hv, hvu, hv^2+\frac{1}{2}gh^2)^T
+   G &=(hv, hvu, hv^2+\frac{1}{2}gh^2)^T
    
-   H=(0, gh(So_x-Sf_x), gh(So_y-Sf_y))^T
+   H &=(0, gh(So_x-Sf_x), gh(So_y-Sf_y))^T
    
   
    
