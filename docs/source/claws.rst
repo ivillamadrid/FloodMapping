@@ -7,7 +7,7 @@ Any conservation law for fluid motion can be expressed in conservative formulati
 
 .. math::
 
-   \frac{\delta \bar U} {\delta t} + \frac{\delta \bar F} {\delta x} + \frac{\delta \bar G} {\delta y}=H 
+   \frac{\delta \bar U} {\delta t} + \frac{\delta \bar F} {\delta x} + \frac{\delta \bar G} {\delta y}=\bar H 
    
 Where U is the vector of conservative variables, F and G are flows in X and Y directions respectively, and H is a source term:
 
