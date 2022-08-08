@@ -68,10 +68,7 @@ Type of mesh
   :alt: Typical triangular based meshes
 
 
-Triangular based meshes for 2D domains, to discretize the mass and momentum differential equations.
-
-  
-The non-structured triangle based approach used by RiverFlow2D, a Delaunay tessellation:
+Triangular based meshes for 2D domains, to discretize the mass and momentum differential equations. As example, the non-structured triangle based approach used by RiverFlow2D, a Delaunay tessellation:
 
 .. image:: TriAngleMesh.png
   :width: 200
