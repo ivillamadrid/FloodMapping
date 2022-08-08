@@ -54,6 +54,11 @@ Where U is the vector of conservative variables, F and G are flows in X and Y di
    
 
 The differential solvers are evaluated across neighbouring cells of a domain or mesh, that historically have been evolving from quadrilateral to triangular shapes.
+As first example, the raster based approach used by Lisfloood-FP is presented:
+
+.. image:: lisflood_grid.gif
+  :width: 200
+  :alt: LF-grid
 
 Type of mesh
 ------------
@@ -64,6 +69,14 @@ Type of mesh
 
 
 Triangular based meshes for 2D domains, to discretize the mass and momentum differential equations.
+
+  
+The non-structured triangle based approach used by RiverFlow2D:
+
+.. image:: TriAngleMesh.png
+  :width: 200
+  :alt: Tri-mesh
+
 
 Practical approach: hybrids
 ---------------------------
