@@ -90,13 +90,17 @@ For instance RSH-2D (US Bureau of Reclamation, 2008) combines quadrilateral cell
   :width: 400
   :alt: SRH
   
-Or the widespread non-structured triangular mesh for the whole domain, also known as flexible mesh:
+Or the widespread non-structured triangular mesh for the whole domain, also known as flexible mesh, note the finest resolution around levees:
 
 .. image:: FlexibleMesh_chFP.png
   :width: 400
   :alt: SRH
 
+In the presence of building blocks, with no porosity, the grids are adapted to the free flood ways, like the streets in this HEC-RAS example:
 
+.. image:: HEC_Mallado-Cuadras.png
+  :width: 400
+  :alt: HEC-Mc
 
 
 The Time Step issue
