@@ -39,7 +39,7 @@ Where U is the vector of conservative variables, F and G are flows in X and Y di
      - X-velocity (m/s)
      - Uy
      - Y-velocity (m/s)
-   * - :math: 'So_x={\delta Z_b}over{\delta x}'
+   * - :math: 'So_x=\frac{\delta Z_b}{\delta x}'
      - X-Slope ()
      - Soy
      - Y-Slope ()
