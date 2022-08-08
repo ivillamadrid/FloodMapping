@@ -96,7 +96,7 @@ Or the widespread non-structured triangular mesh for the whole domain, also know
   :width: 400
   :alt: SRH
 
-In the presence of building blocks, with no porosity, the grids are adapted to the free flood ways, like the streets in this HEC-RAS example:
+In the presence of building blocks, with no porosity, the grids are adapted to the free flood ways, as seen in this HEC-RAS example which uses breaklines as axis for the streets:
 
 .. image:: HEC_Mallado-Cuadras.png
   :width: 400
