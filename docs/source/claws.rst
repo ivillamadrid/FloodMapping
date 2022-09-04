@@ -200,6 +200,10 @@ The links for the referred software are:
 
 .. _RSH-2D, US Bureau of Reclamation: https://www.usbr.gov/tsc/techreferences/computer%20software/models/srh2d/index.html 
 
+`TELEMAC, Global consortium`_
+
+.. _TELEMAC, Global consortium: http://www.opentelemac.org
+
 
 
 
