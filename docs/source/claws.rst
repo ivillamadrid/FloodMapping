@@ -182,11 +182,15 @@ Where
  
 Benchmarking software:
 ----------------------
-The links for the referred software are:
+The links and credits for the referred software are:
 
 `HEC-RAS, USACE`_
 
 .. _HEC-RAS, USACE: https://www.hec.usace.army.mil/software/hec-ras/
+
+`Iber, UDC UPC CEDEX`_
+
+.. _Iber, UDC UPC CEDEX: https://iberaula.es/
 
 `Lisflood-FP, U. Bristol`_
 
