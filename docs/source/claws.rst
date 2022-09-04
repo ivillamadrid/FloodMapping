@@ -196,6 +196,12 @@ The links for the referred software are:
 
 .. _RiverFlow2D, GHC U. Zaragoza & Hydronia Ltd: http://www.hydronia.com/riverflow2d
 
+`RSH-2D, US Bureau of Reclamation`_
+
+.. _RSH-2D, US Bureau of Reclamation: https://www.usbr.gov/tsc/techreferences/computer%20software/models/srh2d/index.html 
+
+
+
 
 
 
