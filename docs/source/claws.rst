@@ -184,10 +184,17 @@ Benchmarking software:
 ----------------------
 The links for the referred software are:
 
+`HEC-RAS, USACE`_
+
+.. _HEC-RAS, USACE: https://www.hec.usace.army.mil/software/hec-ras/
 
 `Lisflood-FP, U. Bristol`_
 
-.. _Lisflood-FP, U. Bristol: http://http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/
+.. _Lisflood-FP, U. Bristol: http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/
+
+`RiverFlow2D, GHC U. Zaragoza & Hydronia Ltd`_
+
+.. _RiverFlow2D, GHC U. Zaragoza & Hydronia Ltd: http://www.hydronia.com/riverflow2d
 
 
 
