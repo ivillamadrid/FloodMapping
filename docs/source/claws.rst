@@ -90,13 +90,13 @@ For instance RSH-2D (US Bureau of Reclamation, 2008) combines quadrilateral cell
   :width: 400
   :alt: SRH
   
-Or the widespread non-structured triangular mesh for the whole domain, also known as flexible mesh, note the finest resolution around levees:
+Or the widespread non-structured triangular mesh for the whole domain, also known as flexible mesh, note the finest resolution around levees, by TELEMAC model.
 
 .. image:: FlexibleMesh_chFP.png
   :width: 400
   :alt: SRH
 
-Detailed 3D view of a flexible mesh around levees and dykes:
+Detailed 3D view of a flexible mesh around levees and dykes, by Iber model:
 
 .. image:: NonStructMesh_Levees.png
   :width: 400
