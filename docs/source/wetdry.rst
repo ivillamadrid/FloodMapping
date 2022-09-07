@@ -2,8 +2,9 @@ Wet-Dry front dynamics
 ======================
 
 
-The Dam-Break problem or the breaking of a dam (Stoker, 1957, 1D) tracks the evolution of a reservoir and a downstream water column, both steady and with different heights initially, over ideal bottom conditions; flat and frictionless bed. Stoker showed there is an analytical or exact solution for the moving front: a simple "parabolic curve" when the downstream area is dry, and a more complex one when the downstream area is wet: [see figures]
+The Dam-Break problem or the breaking of a dam (`Stoker`_, 1957) tracks the evolution of a reservoir and a downstream water column, both steady and with different heights initially, over ideal bottom conditions; flat and frictionless bed. Stoker showed there is an analytical or exact solution for the moving front: a simple "parabolic curve" when the downstream area is dry, and a more complex one when the downstream area is wet: [see figures]
 
+.. _Stoker: https://doi.org/10.1002/9781118033159 
 
 Both problems are a good introduction to visualize the flooding dynamics of shallow water waves, although the complexity grows while natural conditions like irregular bottom (change of slopes) and friction or dissipation are considered. To solve "approximately"  the front evolution and flood extent we need to discretize the conservation of mass and momentum, and apply numerical algorithms crunched by computer power, once the bottom is known (think of a digital elevation model with a pixel resolution with horizontal and vertical accuracies) and the boundary conditions for the flows are measured or typified (think of inflow hydrographs, dykes, sinks, free flowing, etc.)
 
