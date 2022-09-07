@@ -15,7 +15,10 @@ At this early point it is important to think if your study case will need to eva
 
 Dam-break advance with speed :math:`2c_1` over flat, frictionless and dry bottom, being the celerity value :math:`c_1=\sqrt{gh_1}`  (really fast !)
 
-Before the end of the 20th century the Mathematical concepts needed to deal with complex topography and fronts over dry beds were established, as we can see at this Milan symposium in 1994 by ASCE, which paved the road for the complete or full-hydrodynamic Saint Venant models we will practice with along this course. 
+Before the end of the 20th century the Mathematical concepts needed to deal with complex topography and fronts over dry beds were established, as we can see at this Milan symposium in 1994 by `ASCE`_, which paved the road for the complete or full-hydrodynamic Saint Venant models we will practice with along this course. 
+
+
+.. _ASCE: https://cedb.asce.org/CEDBsearch/record.jsp?dockey=0090312
 
 Some typical scenarios where the whole dynamics is not essential, are rivers across large floodplains with many days of downstream routing, or when the available 
 digital elevation model is coarse or not accurate, whereas the propagation of fronts and discontinuities is relevant in: flash floods, particularly in urban districts  with affected surface drainage systems, narrow and steep valleys downstream dam structures breaching, tsunamis, etc. 
