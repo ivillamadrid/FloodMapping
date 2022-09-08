@@ -10,7 +10,7 @@ Any conservation law for fluid motion can be expressed in conservative formulati
    \frac{\delta \bar U} {\delta t} + \frac{\delta \bar F} {\delta x} + \frac{\delta \bar G} {\delta y}=\bar H 
    
 Where U is the vector of conservative variables, F and G are flows in X and Y directions respectively, and H is a source term. For the complete 
-2D Saint Venant equations or shallow water equations (2D-SWE), the terms are:
+2D Saint Venant equations the terms are:
 
 .. math::
    
