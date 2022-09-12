@@ -114,7 +114,7 @@ In the presence of building blocks, with no porosity, the grids are adapted to t
 The Time Step issue
 -------------------
 For an orthogonal or cartesian meshed domain  :math:`\Omega` , the Courant-Friedrichs-Levy criteria defines a CFL coefficient that linearly limits 
-the time-step, as function of the cell size, flow speed and celerity :
+the time-step, multiplied by the cell size, and divided by the sum of flow speed and celerity:
 
 .. math::
 
