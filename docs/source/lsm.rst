@@ -133,8 +133,8 @@ At this point is useful to describe a metric for comparison or change detection 
 
 .. math::
 
-  J(I_mg, S_im)=\frac{I_mg \cap S_im} {I_mg \cup S_im}=\frac{I_mg \cap S_im}{I_mg + S_im -(I_mg \cap S_im)}\\
-  0 \le J(I_mg, S_im) \le 1
+  J(I_{mg}, S_{im})=\frac{I_{mg} \cap S_{im}} {I_{mg} \cup S_{im}}=\frac{I_{mg} \cap S_{im}}{I_{mg} + S_{im} -(I_{mg} \cap S_{im})}\\
+  0 \le J(I_{mg}, S_{im}) \le 1
   
 
 
