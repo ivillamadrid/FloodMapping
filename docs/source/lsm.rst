@@ -125,7 +125,7 @@ In order to estimate the water depth related to the water surface recorded by sa
 Image analysis: RS change detection synergy with Deep Learning and simulations
 ------------------------------------------------------------------------------
 Starting with semantic segmentation at pixel level from remote sensing images, and training with  Deep-Learning frameworks using Convolutional Neural Networks (CNN), in particular U-Net, fed by numerical simulations, we describe the process to create synthetic data scenarios for training through simulation that will resemble real change scenarios monitored by remote sensing, and need some completion because of missing data, inconsistencies, false negatives, etc.
-Of course this is a considerable task and the purpose is just to understand the setting up. A recommended reference is the work by `Yokoya`_.
+Of course this is a considerable task and the simple purpose here is to understand the setting up, a complete reference is the work by `Yokoya`_.
 
 .. _Yokoya: https://doi.org/10.1109/TGRS.2020.3035469
 
