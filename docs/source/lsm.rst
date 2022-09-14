@@ -134,6 +134,7 @@ At this point is useful to describe a metric for comparison or change detection 
 .. math::
 
   J(I_{mg}, S_{im})=\frac{I_{mg} \cap S_{im}} {I_{mg} \cup S_{im}}=\frac{I_{mg} \cap S_{im}}{I_{mg} + S_{im} -(I_{mg} \cap S_{im})}\\
+  \\
   0 \le J(I_{mg}, S_{im}) \le 1
   
 
