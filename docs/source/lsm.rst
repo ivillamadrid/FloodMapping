@@ -145,8 +145,7 @@ A Jaccard value of one means identical extents, whereas a value of cero means nu
 
 Global surface water mapping
 ----------------------------
-A worldwide database for considering the extent of permanent water bodies and their time variability is available at
-the `JRC database`_ .
+To have a reference for change detection anywhere, a worldwide database with the extent of permanent water bodies and their time variability is available at the `JRC database`_ .
  
 .. _JRC database: https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_3_GlobalSurfaceWater?hl=en 
 
