@@ -122,14 +122,14 @@ The following image summarizes the action of a Kernel (Sobel-Gaussian) filtering
 
 In order to estimate the water depth related to the water surface recorded by satellite imagery (with no altimetry, ie Multi-Spectral or SAR backscatter), a base DTM or raster elevation is needed, where the 2D-convolution operator is applied using a Kernel that weights the terrain neighbours to have a mean value of the bottom, adding a special treatment to have extra-accuracy at dry-wet boundaries, river banks or embankments, to serve as reference for the water surface height. 
 
-Image analysis: RS change detection synergy with Deep Learning and simulations
-------------------------------------------------------------------------------
+Image analysis: RS change detection synergy with Deep Learning from Simulations
+-------------------------------------------------------------------------------
 Starting with semantic segmentation at pixel level from remote sensing images, and training with  Deep-Learning frameworks using Convolutional Neural Networks (CNN), in particular U-Net, fed by numerical simulations, we describe the process to create synthetic data scenarios for training through simulation that will resemble real change scenarios monitored by remote sensing, and need some completion because of missing data, inconsistencies, false negatives, etc.
 Of course this is a considerable task and the simple purpose here is to understand the setting up, a complete reference is the work by `Yokoya`_.
 
 .. _Yokoya: https://doi.org/10.1109/TGRS.2020.3035469
 
-At this point is useful to describe a metric for comparison or change detection between images or simulations, the Jaccard index 
+At this point is useful to describe a metric for comparison or change detection between multi-temporal images or simulations, the Jaccard index 
 (intersection over union):
 
 .. math::
@@ -138,7 +138,7 @@ At this point is useful to describe a metric for comparison or change detection 
   \\
   0 \le J(I_{mg}, S_{im}) \le 1
   
-
+A Jaccard value of one means identical extents, whereas a value of cero means null intersection.
 
 
 Global surface water mapping
