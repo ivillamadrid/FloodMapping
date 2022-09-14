@@ -106,7 +106,7 @@ Image processing: noise filtering
 ---------------------------------
 Multi-Spectral and Panchromatic imagery are subject to the presence of cloud cover, whereas SAR microwaves are not perturbed. For the former group
 access to pre-event images or filtering techniques are needed. The presence of vegetation over water bodies is a common and frequent source of noise for any exploitation of remote sensing imagery. 
-SAR imagery researchers and practitioners continue improving algorithms to identify water bodies under vegetation or between buildings, considering effects like double bounce and shadows for the backscatter, that depend on the wave-length, polarisation and incidence angle, and of course the surface roughness and dielectric properties, but those SAR processing  techniques are out of the scope of this basic manual, and usually deal with segmentation, supervised or trained classifiers within Deep-Learning frameworks, and multi-temporal sequences of images.
+SAR imagery researchers and practitioners continue improving algorithms to identify water bodies under vegetation or between buildings, considering effects like double bounce and shadows for the backscatter, that depend on the wave-length, polarisation and incidence angle, and of course the surface roughness and dielectric properties, but those SAR processing  techniques are out of the scope of this basic manual, we only deal with semantic segmentation at pixel level, but trained with or without supervision classifiers within Deep-Learning frameworks using Convolutional Neural Networks(CNN), case of U-Net, will be introduced in a further stage.
 
 Image processing: edge detectors and buffers
 --------------------------------------------
