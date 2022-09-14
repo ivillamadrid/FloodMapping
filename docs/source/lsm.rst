@@ -133,7 +133,7 @@ At this point is useful to describe a metric for comparison or change detection 
 
 .. math::
 
-  J(Img, Sim)=\frac{Img \cup Sim} {Img \bigcup Sim}=\frac{}{}
+  J(Img, Sim)=\frac{Img \cap Sim} {Img \cup Sim}=\frac{Img \cap Sim}{Img + Sim -(Img \cap Sim)}
   
 
 
