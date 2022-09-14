@@ -106,7 +106,7 @@ Image processing: noise filtering
 ---------------------------------
 Multi-Spectral and Panchromatic imagery are subject to the presence of cloud cover, whereas SAR microwaves are not perturbed. For the former group
 access to pre-event images or filtering techniques are needed. The presence of vegetation over water bodies is a common and frequent source of noise for any exploitation of remote sensing imagery. 
-SAR imagery researchers and practitioners continue improving algorithms to identify water bodies under vegetation or between buildings, considering effects like double bounce and shadows for the backscatter, that depend on the wave-length, polarisation and incidence angle, and of course the surface roughness and dielectric properties, but those SAR processing  techniques are out of the scope of this basic manual, we only deal with semantic segmentation at pixel level, but training with or without supervision classifiers within Deep-Learning frameworks using Convolutional Neural Networks (CNN), the known case of U-Net, will be introduced in a further stage.
+SAR imagery researchers and practitioners continue improving algorithms to identify water bodies under vegetation or between buildings, considering effects like double bounce and shadows for the backscatter, that depend on the wave-length, polarisation and incidence angle, and of course the surface roughness and dielectric properties, but those SAR processing  techniques are out of the scope of this basic manual.
 
 Image processing: edge detectors and buffers
 --------------------------------------------
@@ -122,10 +122,16 @@ The following image summarizes the action of a Kernel (Sobel-Gaussian) filtering
 
 In order to estimate the water depth related to the water surface recorded by satellite imagery (with no altimetry, ie Multi-Spectral or SAR backscatter), a base DTM or raster elevation is needed, where the 2D-convolution operator is applied using a Kernel that weights the terrain neighbours to have a mean value of the bottom, adding a special treatment to have extra-accuracy at dry-wet boundaries, river banks or embankments, to serve as reference for the water surface height. 
 
+Image analysis: RS change detection synergy with Deep Learning and simulations
+------------------------------------------------------------------------------
+Starting with semantic segmentation at pixel level from remote sensing images, and training with  Deep-Learning frameworks using Convolutional Neural Networks (CNN), in particular U-Net, fed by numerical simulations, we describe the process to create synthetic data scenarios for training through simulation. 
 
-AI to train and validate global surface water mapping
------------------------------------------------------
-See for more details the `JRC database`_ .
+
+
+Global surface water mapping
+----------------------------
+A worldwide database for considering the extent of permanent water bodies and their time variability is available at
+the `JRC database`_ .
  
 .. _JRC database: https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_3_GlobalSurfaceWater?hl=en 
 
