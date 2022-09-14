@@ -129,7 +129,12 @@ Of course this is a considerable task and the purpose is just to understand the 
 
 .. _Yokoya: https://doi.org/10.1109/TGRS.2020.3035469
 
-At this point is useful to describe a metric for comparison, the Jaquard criteria:
+At this point is useful to describe a metric for comparison or change detection between images or simulations, the Jaccard index:
+
+.. math::
+
+  J(Img, Sim)=\frac{Img \Int Sim} {Img \Uni Sim}=\frac{}{}
+  
 
 
 
