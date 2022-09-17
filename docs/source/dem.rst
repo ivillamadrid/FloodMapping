@@ -55,8 +55,11 @@ Filtering with SMRF windows:
   :alt: SMRF_1
   
 How a surface or a cloud of points is eroded with a SMRF filter using different slopes, or window height and length  parameters, by `Pingel et al, 2013`_. 
+And how the parameters are tunned with smrf `ODM-flags`_.
 
 .. _Pingel et al, 2013: http://dx.doi.org/10.1016/j.isprsjprs.2012.12.002
+
+.. _ODM-flags: https://docs.opendronemap.org/arguments/ 
 
 
 Training with affordable drones
