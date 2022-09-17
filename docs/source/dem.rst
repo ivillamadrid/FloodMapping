@@ -28,7 +28,12 @@ Digital Surface Model versus Terrain Model in "Terminology and Definitions for D
 .. _Guth et al, 2021: https://doi.org/10.3390/rs13183581 
 
 To understand how to transform a DSM from a Remote-Sensing device, as simple and affordable as a drone camera, in optical range (no LiDAR nor laser detection),
-we describe briefly the principles to generate a cloud of points from geo-referenced pictures (SfM: structure from motion), the 3D building of the surface model (dense multi-stereo matching) and the filtering with SMRF (Simple Morphological Filter) to remove basically vegetation and blocks: 
+we describe briefly the principles to generate a cloud of points from geo-referenced pictures (SfM: structure from motion), the 3D building of the surface model (dense multi-stereo matching) and the filtering with SMRF (Simple Morphological Filter) to remove basically vegetation and blocks. 
+
+Structure from motion principles and dense reconstruction:
+
+
+Filtering with SMRF
 
 
 
