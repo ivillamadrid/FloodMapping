@@ -34,7 +34,14 @@ we describe briefly the principles to generate a cloud of points from geo-refere
 Structure from motion principles and dense reconstruction:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
+.. image:: SfM_1.png
+  :width: 300
+  :alt: SFM
+  
+.. image:: SfM_WorkFlow_ByGirod.png
+  :width: 400
+  :alt: WFGirod
+  
 The workflow comes from the selected reference of `Girod et al, 2017`_.
 
 .. _Girod et al, 2017: https://tc.copernicus.org/articles/11/827/2017/ 
@@ -43,9 +50,13 @@ The workflow comes from the selected reference of `Girod et al, 2017`_.
 Filtering with SMRF windows:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-How a surface is eroded with a SMRF filter using different slopes, or window height and length  parameters. 
+.. image:: SMRF.png
+  :width: 400
+  :alt: SMRF_1
+  
+How a surface or a cloud of points is eroded with a SMRF filter using different slopes, or window height and length  parameters, by `Pingel et al, 2013`_. 
 
-
+.. _Pingel et al, 2013: http://dx.doi.org/10.1016/j.isprsjprs.2012.12.002
 
 
 Training with affordable drones
