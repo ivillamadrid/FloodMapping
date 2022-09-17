@@ -38,10 +38,10 @@ Training with affordable drones
 In this section we practice with High-Quality drone imagery and the Open-Drone-Map software (`ODM`_), to obtain DSMs and DTMs from simple flights to 
 set the essential ground data for reliable simulations, at scales of a few hectares.
 
-.. _ODM: https://opendronemap.org/'
+.. _ODM: https://opendronemap.org/
 
 The basic documentation for processing a package of photographs from a drone flight can be reached at `docs-opendronemap`_
 
-.. _docs-opendronemap: https://docs.opendronemap.org/'
+.. _docs-opendronemap: https://docs.opendronemap.org/
 
 
