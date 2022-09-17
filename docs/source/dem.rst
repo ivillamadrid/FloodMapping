@@ -27,12 +27,16 @@ Digital Surface Model versus Terrain Model in Terminology and Definitions for Di
 
 .. _Guth et al, 2021: https://doi.org/10.3390/rs13183581 
 
+To understand how to transform a DTM from a Remote-Sensing device, as simple and affordable as a drone camera, 
+we describe the principles of the SMRF (Simple Morphological Filter) 
+
 
 
 Training with affordable drones
 -------------------------------
 
-In this section we practice with High-Quality drone imagery and the Open-Drone-Map software (`ODM`_).
+In this section we practice with High-Quality drone imagery and the Open-Drone-Map software (`ODM`_), to obtain DTMs and DSMs for reliable simulations 
+at scales of a few hectares.
 
 .. _ODM: https://opendronemap.org/'
 
