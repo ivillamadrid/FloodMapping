@@ -32,7 +32,7 @@ we describe briefly the principles to generate a cloud of points from geo-refere
 
 
 Structure from motion principles and dense reconstruction:
-----------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 The workflow comes from the selected reference of `Girod et al, 2017`_.
@@ -41,7 +41,7 @@ The workflow comes from the selected reference of `Girod et al, 2017`_.
 
 
 Filtering with SMRF windows:
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 How a surface is eroded with a SMRF filter using different slopes, or window height and length  parameters. 
 
@@ -56,8 +56,8 @@ set the essential ground data for reliable simulations, at scales of a few hecta
 
 .. _ODM: https://opendronemap.org/
 
-The basic documentation for processing a package of photographs from a drone flight can be reached at `docs-opendronemap`_
+The basic documentation for processing a package of photographs from a drone flight can be reached at `docs-opendronemap`_.
 
 .. _docs-opendronemap: https://docs.opendronemap.org/
 
-
+A repository with significant packages to start training, will be available soon. 
