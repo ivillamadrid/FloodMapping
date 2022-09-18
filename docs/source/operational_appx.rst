@@ -11,8 +11,8 @@ Tabulating all data sources
 ---------------------------
 
 
-Meshing streets
----------------
+Urban scenarios: street meshing
+-------------------------------
 
 
 Setting up a Convolutional Neural Network like U-Net
