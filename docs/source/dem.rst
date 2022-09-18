@@ -31,8 +31,8 @@ To understand how to transform a DSM from a Remote-Sensing device, as simple and
 we describe briefly the principles to generate a cloud of points from geo-referenced pictures (SfM: structure from motion), the 3D building of the surface model (dense multi-stereo matching) and the filtering with a SMRF (Simple Morphological Filter) to remove basically vegetation and blocks to work with bare earth. 
 
 
-Structure from motion principles and dense reconstruction:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Structure from motion principles and dense reconstruction
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: SfM_1.png
   :width: 300
@@ -47,8 +47,8 @@ The workflow comes from the selected reference of `Girod et al, 2017`_.
 .. _Girod et al, 2017: https://tc.copernicus.org/articles/11/827/2017/ 
 
 
-Filtering with SMRF windows:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Filtering with SMRF windows
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: SMRF.png
   :width: 400
