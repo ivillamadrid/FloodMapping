@@ -9,7 +9,11 @@ Hazard and Risk mapping
 
 Tabulating validation data sources
 ----------------------------------
-From Bates, we can extract a table with the most common sources for mapping validation.
+From Bates 2022, we can extract a table with the most common sources for model validation.
+
+.. image:: ValidationDataSRC_Bates2022.png
+  :width: 400
+  :alt: ValSRC
 
 
 Urban scenarios: street meshing
