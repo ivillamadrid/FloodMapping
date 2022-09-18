@@ -15,5 +15,7 @@ JRC worldwide database
 San Pedro Sula, Honduras, November 2021, post-hurricanes effects
 ----------------------------------------------------------------
 
-
+.. image:: 2Breachs_TrueColor.png
+  :width: 400
+  :alt: LF-grid
 
