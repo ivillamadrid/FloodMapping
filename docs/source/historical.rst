@@ -21,3 +21,7 @@ Scanned historical images
 
 The concept of "breakline" for the river axis and flow distribution across plain cells, 1994, by Giammarco and Todini.
 
+.. image:: BreakLine_FloodPlain_Giammarco-Todini_1994.jpg
+  :width: 400
+  :alt: Giammarco-Todini_1994.
+
