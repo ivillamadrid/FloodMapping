@@ -16,8 +16,8 @@ After more than 60 years of Stoker practices, the digital era with open access R
 .. _Bates, 2022: https://doi.org/10.1146/annurev-fluid-030121-113138
 
 
-Scanned historical images
--------------------------
+Scanned images
+--------------
 
 The concept of "breakline" for the river axis and flow distribution across plain cells, 1994, by Giammarco and Todini.
 
