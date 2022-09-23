@@ -19,7 +19,7 @@ After more than 60 years of Stoker practices, the digital era with open access R
 Scanned images
 --------------
 
-The concept of "breakline" for the river axis and flow distribution across plain cells, 1994, by Giammarco and Todini.
+Flood modelling is not only about choosing an appropriate mesh and numerical solver, the topology and connections between hydraulic structures play a major role, we rediscover here the concept of "breakline" for the river axis and its flow distribution across plain cells,  by Giammarco and Todini, 1994, when numerical engines started to couple with Geographical Information Systems or GIS frameworks.
 
 .. image:: BreakLine_FloodPlain_Giammarco-Todini_1994.jpg
   :width: 400
