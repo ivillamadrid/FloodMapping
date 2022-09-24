@@ -3,7 +3,7 @@ Drones + LSPIV: local flow-speed measurements
 
 In this section we practice with High-Quality drone imagery and the RIVeR software (`RIVeR`_), based in `PIV-lab`_.
 
-.. _RIVeR: https://riverdischarge.blogspot.com/'
+.. _RIVeR: https://riverdischarge.blogspot.com/
 
 
 
