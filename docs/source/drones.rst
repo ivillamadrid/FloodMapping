@@ -13,5 +13,9 @@ In this section we practice with High-Quality drone imagery and the RIVeR softwa
 LSPIV processing of drone captured videos, allows to detect and measure river flow patterns, like this recirculation as result of a expansion, 
 downstream a dyke.
 
+.. image:: RIVeR_Out_ModVxVy_Coarsest.png
+  :width: 400
+  :alt: Recirculation
+
 
 
