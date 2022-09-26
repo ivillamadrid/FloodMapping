@@ -35,9 +35,17 @@ although the former is more used to predict, is the average of flood damages cal
 the total damage for each event is weighted by its probability in a year, 
 
 That weight can be:
-W_i=1.-exp(-1/T_i)
 
-W_i=(1/T_i - 1/T_i+1)
+.. math::
+
+  W_i=1.-exp(\frac{-1} {T_i}) 
+
+Or
+
+.. math::
+
+W_i=\frac{1} {T_i}-\frac{1} {T_{i+1}}
+
 
 Tabulating validation data sources
 ----------------------------------
