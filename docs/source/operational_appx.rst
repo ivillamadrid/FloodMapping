@@ -12,9 +12,9 @@ The Risk is a function of (Hazard, Exposure, Vulnerability), being:
 
 #. Hazard, with two components:
 
-	* Intensity: direct result of simulations that output rasters with Water Depth and Velocities, and extents.
+	* Intensity: direct result of simulations that output rasters with Water Depth and Velocities, and Extents.
 
-	* Probability of hazard, linked to the Return Period of the forcing boundary: a river discharge for fluvial floods, a rainfall for pluvial floods, or the sea level for coastal floods.
+	* Probability of hazard, linked to the Return Period of the forcing boundary: a river discharge for fluvial floods, a rainfall for pluvial floods, or the sea 		level for coastal floods.
 
 #. Exposure: related to accounting Land Uses, type of buildings and infrastructures, all analysed within a GIS Framework.
 Nowadays a correct and affordable pixel resolution for Risk calculations is as fine as 1-2 meters.
@@ -44,7 +44,7 @@ Or
 
 .. math::
 
-W_i=\frac{1} {T_i}-\frac{1} {T_{i+1}}
+  W_i=\frac{1} {T_i}-\frac{1} {T_{i+1}}
 
 
 Tabulating validation data sources
