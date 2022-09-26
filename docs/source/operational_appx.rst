@@ -24,7 +24,7 @@ Tipically a Total-Damage is calculated as a sum over Polygons:
 
 .. math::
 
-  TD=\Sum_{Polygs} S_{Polyg} Max-val(curve) \Theta_{Polyg}(\overlineWD)
+  TD=\sum_{Polygs} S_{Polyg} Max-val(curve) \Theta_{Polyg}(\overline{WD})
 
 A more complex analysis can be held by using the product of Depth times Velocity, 
 specially when it is directly applied to population or cars, using the so called vulnerability curves.
