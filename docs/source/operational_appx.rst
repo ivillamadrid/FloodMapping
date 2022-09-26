@@ -30,15 +30,13 @@ specially when it is directly applied to population or cars, using the so called
 
 Annual Expected Damage:
 ^^^^^^^^^^^^^^^^^^^^^^^
-The expected annual damage (EAD), also known as averaged annual damage(AAD), 
+The expected annual damage (EAD), also known as averaged annual damage (AAD), 
 although the former is more used to predict, is the average of flood damages calculated over a number of events, where 
-the total damage for each event is weighted by its probability in a year, 
-
-That weight can be:
+the total damage for each event is weighted by its probability in a year, that weight can be:
 
 .. math::
 
-  W_i=1.-exp(\frac{-1} {T_i}) 
+  W_i=1.-exp \left(\frac{-1} {T_i}\right) 
 
 Or
 
