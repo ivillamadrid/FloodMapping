@@ -67,11 +67,11 @@ Urban scenarios: street meshing
 Setting up a Convolutional Neural Network like U-Net
 ----------------------------------------------------
 
-A CNN U-Net with Attention Gates can be set up in a few lines of code with `PyTorch`_ libraries.
+A CNN U-Net with Attention Gates can be set up in a few lines of code with open source `PyTorch`_ libraries.
 
 .. _Pytorch: https://pytorch.org/ 
 
-This particular configuration requires four "convolutional+pooling" layers going down, and ...
+This particular configuration requires four "convolutional+pooling" layers downsampling, and further upsampling with convolution.
 
 
 
