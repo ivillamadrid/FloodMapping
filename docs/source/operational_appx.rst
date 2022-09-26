@@ -10,9 +10,9 @@ nowadays strongly linked to Climate-Change scenarios.
 
 The Risk is a function of (Hazard, Exposure, Vulnerability), being:
 
-#. Hazard, with two components:
+#. Hazard, with two components.
 
-	* Intensity: direct result of simulations that output rasters with Water Depth and Velocities, and Extents.
+	* Intensity: direct result of simulations that output rasters with Water Depth, Velocities, and Extents.
 
 	* Probability of hazard, linked to the Return Period of the forcing boundary: a river discharge for fluvial floods, a rainfall for pluvial floods, or the sea 		level for coastal floods.
 
