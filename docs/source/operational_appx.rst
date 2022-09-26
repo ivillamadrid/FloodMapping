@@ -20,7 +20,7 @@ The Risk is a function of Hazard, Exposure, and Vulnerability, being:
 
 #. Vulnerability: through the damage curve that relates usually Water Depth versus Damage having particular dependencies on the physical structures or terrain contents, if the loss is direct or indirect, tangible (economic loss) or intangible (population, injuries or loss of life).
 
-Tipically a Total-Damage is calculated as a sum over Polygons, considering an averaged Water-Depth(WD) over each surface Polygon (S_{Polyg}):
+Tipically a Total-Damage is calculated as a sum over Polygons, considering an averaged Water-Depth(WD) over each surface Polygon (S):
 
 .. math::
 
