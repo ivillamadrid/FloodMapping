@@ -8,23 +8,27 @@ Hazard and Risk mapping
 Directly associated to flood simulations, or frequently the promoter, is the calculation of the Flood Risk,
 nowadays strongly linked to Climate-Change scenarios.
 
-The Risk is a function of (Hazard, Exposure, Vulnerability), being:
+The Risk is a function of Hazard, Exposure, and Vulnerability, being:
 
-#. Hazard, with two components.
+#. Hazard, with two components:
 
- * Intensity. Direct result of simulations that output rasters with Water Depth, Velocities, and Extents.
+   * Intensity: direct result of simulations that output rasters with Water Depth, Velocities, and Extents.
 
- * Probability of hazard. Linked to the Return Period of the forcing boundary: a river discharge for fluvial floods, a rainfall for pluvial floods, 
-   or the sea level for coastal floods.
+   * Probability of hazard: linked to the Return Period of the forcing boundary: a river discharge for fluvial floods, a rainfall for pluvial floods, or the sea level for coastal floods.
    
 #. Exposure: related to accounting Land Uses, type of buildings and infrastructures, all analysed within a GIS Framework. Nowadays a correct and affordable pixel resolution for Risk calculations is as fine as 1-2 meters.
 
-#. Vulnerability: through the damage curve that relates usually Water Depth versus Damage having particular 
-dependencies on the physical structures or terrain contents, if the loss is direct or indirect, tangible (economic loss) or 
-intangible (population, injuries or loss of life).
+#. Vulnerability: through the damage curve that relates usually Water Depth versus Damage having particular dependencies on the physical structures or terrain contents, if the loss is direct or indirect, tangible (economic loss) or intangible (population, injuries or loss of life).
+
+Tipically a Total-Damage is calculated as a sum over Polygons:
+
+.. math::
+
+  TD=\Sum_{Polygs} S_{Polyg} Max-val(curve) \Theta_{Polyg}(\overlineWD)
 
 A more complex analysis can be held by using the product of Depth times Velocity, 
 specially when it is directly applied to population or cars, using the so called vulnerability curves.
+
 
 
 
