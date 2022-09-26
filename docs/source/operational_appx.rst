@@ -24,7 +24,7 @@ Tipically a Total-Damage is calculated as a sum over Polygons, considering an av
 
 .. math::
 
-  TD=\sum_{Polygs} S_{Polyg} Val_{Dmg-curve} \Theta_{Polyg}(\overline{WD})
+  TD=\sum_{Polygs} S_{Polyg} Vmax_{Dmg-curve} \Theta_{Polyg}(\overline{WD})
 
 A more complex analysis can be held by using the product of Depth times Velocity, 
 specially when it is directly applied to population or cars, using the so called vulnerability curves.
@@ -66,4 +66,12 @@ Urban scenarios: street meshing
 
 Setting up a Convolutional Neural Network like U-Net
 ----------------------------------------------------
+
+A CNN U-Net with Attention Gates can be set up in a few lines of code with `PyTorch`_ libraries.
+
+.. _Pytorch: https://pytorch.org/ 
+
+This particular configuration requires four "convolutional+pooling" layers going down, and ...
+
+
 
