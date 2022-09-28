@@ -42,12 +42,6 @@ the total damage for each event is weighted by its probability in a year, that w
 
   W_i=1.-exp \left(\frac{-1} {T_i}\right)  or W_i=\frac{1} {T_i}-\frac{1} {T_{i+1}}
 
-Or
-
-.. math::
-
-  W_i=\frac{1} {T_i}-\frac{1} {T_{i+1}}
-
 
 Tabulating validation data sources
 ----------------------------------
