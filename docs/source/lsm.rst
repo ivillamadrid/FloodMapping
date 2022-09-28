@@ -147,7 +147,7 @@ If the two rasters have the same number of pixels (Nx, Ny) and equal frame coord
 
   J(I_{mg}, S_{im})  = \frac{Sum(I_{mg}*S_{im})} {Sum(I_{mg})+Sum(S_{im})-Sum(I_{mg}*S_{im})}
 
-Where Sum is the addition of all the pixels (Nx, Ny).
+Where Sum is the addition of all the pixels (Nx, Ny) values.
 
 Global surface water mapping
 ----------------------------
