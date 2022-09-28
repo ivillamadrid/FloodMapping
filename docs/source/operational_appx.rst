@@ -65,7 +65,10 @@ A CNN U-Net with Attention Gates can be set up in a few lines of code with the o
 
 .. _Pytorch: https://pytorch.org/ 
 
-The selected configuration applies four "convolutional+pooling" downsampling layers, and afterwards 5 upsamplings, 
+The selected configuration applies four "convolutional+pooling" downsampling layers, and afterwards 5 upsamplings, (U-shape)
+connecting with attention gates layers of the same Width-Height.
+
+This initial Set-Up might require a CNN with as much as 57 M parameters to optimize, for a mosaic of 100 training images.
 
 
 
