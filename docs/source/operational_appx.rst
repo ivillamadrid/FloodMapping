@@ -40,7 +40,7 @@ the total damage for each event is weighted by its probability in a year, that w
 
 .. math::
 
-  W_i=1.-exp \left(\frac{-1} {T_i}\right)  or W_i=\frac{1} {T_i}-\frac{1} {T_{i+1}}
+  W_i=1.-exp \left(\frac{-1} {T_i}\right) \; or \; W_i=\frac{1} {T_i}-\frac{1} {T_{i+1}}
 
 
 Tabulating validation data sources
@@ -61,11 +61,11 @@ Urban scenarios: street meshing
 Setting up a Convolutional Neural Network like U-Net
 ----------------------------------------------------
 
-A CNN U-Net with Attention Gates can be set up in a few lines of code with open source `PyTorch`_ libraries.
+A CNN U-Net with Attention Gates can be set up in a few lines of code with the open source `PyTorch`_ libraries.
 
 .. _Pytorch: https://pytorch.org/ 
 
-This particular configuration requires four "convolutional+pooling" layers downsampling, and further upsampling with convolution.
+The selected configuration applies four "convolutional+pooling" downsampling layers, and afterwards 5 upsamplings, 
 
 
 
