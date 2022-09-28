@@ -141,7 +141,7 @@ At this point is useful to describe a metric for comparison or change detection 
   0 \le J(I_{mg}, S_{im}) \le 1
   
 A Jaccard value of one means identical extents, whereas a value of cero means null intersection.
-If the two rasters has the same number of pixels (Nx, Ny) and equal frame coordinates, the index can be calculated as:
+If the two rasters have the same number of pixels (Nx, Ny) and equal frame coordinates, the index can be calculated as:
 
 .. math::
 
