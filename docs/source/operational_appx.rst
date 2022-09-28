@@ -40,7 +40,7 @@ the total damage for each event is weighted by its probability in a year, that w
 
 .. math::
 
-  W_i=1.-exp \left(\frac{-1} {T_i}\right) 
+  W_i=1.-exp \left(\frac{-1} {T_i}\right) , W_i=\frac{1} {T_i}-\frac{1} {T_{i+1}}
 
 Or
 
