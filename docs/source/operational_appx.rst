@@ -65,11 +65,12 @@ A CNN U-Net with Attention Gates can be set up in a few lines of code with the o
 
 .. _Pytorch: https://pytorch.org/ 
 
-The basic theory, states that a CNN is trained to minimize the difference between a forwarded input and a reference, for a set of K pairs.
+The basic theory, states that a CNN is trained to minimize the difference between a forwarded input(time n) 
+and a reference (time n+T), for a set of K pairs.
 
 .. math::
 
-  D=\sum_{K} \left(Fwd_{CNN}(Img_{K,\Omega_1}^{n}), Img_{K, \Omega_2}^{n+T}\right)  
+  D=\sum_{K} \left(Fwd_{cnn}(Img_{K,\Omega_1}^{n}), Img_{K, \Omega_2}^{n+T}\right)  
 
 
 The selected configuration applies four "convolutional+pooling" downsampling layers, and afterwards another four upsamplings (U-shape)
