@@ -74,7 +74,7 @@ and a further reference  image (time n+T, domain :math:`\Omega_2`), for a set of
 
 
 The Forward-CNN engine or predictor, is a substitute of a physically based simulation, and for this case the selected configuration applies four "convolutional+pooling" downsampling layers, and afterwards another four upsamplings (U-shape)
-connecting with attention gates, layers of the same Width-Height.
+connecting with attention gates, layers of the same Width-Height, and for simplicity identical domains :math:`\Omega`.
 
 This initial Set-Up might require a CNN with as much as 57 M parameters to optimize, for a mosaic of 100 training images, and run in a few minutes both for training and prediction with Graphical Processor Units (GPU).
 
