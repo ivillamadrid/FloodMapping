@@ -69,7 +69,7 @@ The basic theory,
 
 .. math::
 
-  D=\sum_{K} \[Fwd_{CNN}(Img_{\Sigma_1}^{n}), Img_{\Sigma_2}^{n+T}\]  
+  D=\sum_{K} \(Fwd_{CNN}(Img_{K,\sigma_1}^{n}), Img_{K, \sigma_2}^{n+T}\)  
 
 
 The selected configuration applies four "convolutional+pooling" downsampling layers, and afterwards another four upsamplings (U-shape)
