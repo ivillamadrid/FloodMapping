@@ -65,6 +65,13 @@ A CNN U-Net with Attention Gates can be set up in a few lines of code with the o
 
 .. _Pytorch: https://pytorch.org/ 
 
+The basic theory,
+
+.. math::
+
+  D=\sum_{K} \[Fwd_{CNN}(Img_{\Sigma_1}^{n}), Img_{\Sigma_2}^{n+T}\]  
+
+
 The selected configuration applies four "convolutional+pooling" downsampling layers, and afterwards another four upsamplings (U-shape)
 connecting with attention gates, layers of the same Width-Height.
 
