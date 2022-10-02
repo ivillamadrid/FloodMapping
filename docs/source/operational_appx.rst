@@ -75,9 +75,10 @@ and a further reference  image (time n+T, domain :math:`\Omega_2`), for a set of
 
 The Forward-CNN engine or predictor, is a substitute for a physically based simulation, in our case, the selected configuration applies four "convolutional+pooling" downsampling layers, and afterwards another four upsamplings (U-shape)
 connecting with attention gates, layers of the same Width-Height, and for simplicity an identical domain :math:`\Omega`. The metric can be the 
-Jaccard index (intersection over union), RMSE or LSHI, the last two applied to flatten rasters.
+Jaccard index (intersection over union), RMSE or LSHI, the last two applied to flatten rasters. During the live course how to select images and 
+set up the training is detailed.
 
-This initial Set-Up might require a CNN with as much as 57 M parameters to optimize, for a mosaic of 100 training images, and run in a few minutes both for training and prediction with Graphical Processor Units (GPU).
+As example figures, an initial Set-Up might require a CNN with as much as 57 M parameters to optimize, for a mosaic of 100 training images, and run in a few minutes both for training and prediction with Graphical Processor Units (GPU).
 
 
 
