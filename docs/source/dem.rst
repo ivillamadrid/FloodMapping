@@ -74,9 +74,10 @@ The basic documentation for processing a package of photographs from a drone fli
 
 .. _docs-opendronemap: https://docs.opendronemap.org/
 
-A repository with significant packages to start training, like the Carossio quebrada at Lima, Perú, will be available soon. 
+A repository with significant packages to start training, like the Carossio quebrada at Lima, Perú, `IAPG-2022`_ training, will be available soon. 
 
 .. image:: CarossioCo.png
   :width: 500
   :alt: Carossio
 
+.. _IAPG-2022: http://geoeticaperu.blogspot.com/2022/02/curso-internacional-de-fundamentos-para.html 
