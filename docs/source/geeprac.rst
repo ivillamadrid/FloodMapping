@@ -12,7 +12,7 @@ Link to `GEE`_ available datasets, including Sentinel 1 & 2 imagery, SRTM-DTM, a
 Worldwide databases
 -------------------
 
-The `JRC`_ and the `Global-Flood`_ databases for permanent water bodies and their fluctuations, are available at GEE.
+The `JRC`_ and the `Global-Flood`_ databases for permanent water bodies and their fluctuations, are also available at GEE.
 
 .. _JRC: https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_3_GlobalSurfaceWater 
 
