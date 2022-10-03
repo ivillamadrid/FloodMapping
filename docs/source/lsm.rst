@@ -151,9 +151,11 @@ Where Sum is the addition of all the pixels (Nx, Ny) values.
 
 Global surface water mapping
 ----------------------------
-To have a reference for change detection anywhere, a worldwide database with the extent of permanent water bodies and their time variability is available at the `JRC database`_ .
+To have a reference for change detection anywhere, worldwide databases with the extent of permanent water bodies and their time variability are available at the `JRC database`_, and `Global-Flood`_.
  
 .. _JRC database: https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_3_GlobalSurfaceWater?hl=en 
+
+.. _Global-Flood: https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1
 
 
 
