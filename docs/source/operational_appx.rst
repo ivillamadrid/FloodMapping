@@ -66,11 +66,11 @@ A CNN U-Net with Attention Gates can be set up in a few lines of code with the o
 .. _Pytorch: https://pytorch.org/ 
 
 The basic theory, states that a CNN is trained to minimize the difference between a forwarded input image (time n, domain :math:`\Omega_1`) 
-and a further reference  image (time n+T, domain :math:`\Omega_2`), for a set of K training pairs:
+and a further reference  image (time n+T, domain :math:`\Omega_2`), for a set of K training pairs, that loss to minimize is:
 
 .. math::
 
-  Loss=\sum_{K} \left(Fwd_{CNN}(Img_{K,\Omega_1}^{n}), Img_{K, \Omega_2}^{n+T}\right)_{metric}  
+  Loss=\sum_{K} \left(Fwd_{CNN}(Img_{K,\b\Omega_1}^{n}), Img_{K, \b\Omega_2}^{n+T}\right)_{metric}  
 
 
 The Forward-CNN engine or predictor, is a substitute for a physically based simulation, in our case, the selected configuration applies four "convolutional+pooling" downsampling layers, and afterwards another four upsamplings (U-shape)
