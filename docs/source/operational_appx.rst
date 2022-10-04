@@ -70,7 +70,7 @@ and a further reference  image (time n+T, domain :math:`\Omega_2`), for a set of
 
 .. math::
 
-  D=\sum_{K} \left(Fwd_{CNN}(Img_{K,\Omega_1}^{n}), Img_{K, \Omega_2}^{n+T}\right)_{metric}  
+  L=\sum_{K} \left(Fwd_{CNN}(Img_{K,\Omega_1}^{n}), Img_{K, \Omega_2}^{n+T}\right)_{metric}  
 
 
 The Forward-CNN engine or predictor, is a substitute for a physically based simulation, in our case, the selected configuration applies four "convolutional+pooling" downsampling layers, and afterwards another four upsamplings (U-shape)
