@@ -86,7 +86,7 @@ the training set up are discussed in detail, at this point the whole process can
 
 #. Testing with selected events to improve the prediction capacity and reach Real-Time feasibility.
 
-As example figures, an initial Set-Up might require a CNN with as much as 57 M parameters to optimize, for a mosaic of 100 training images, and run in a few minutes both for training and prediction with Graphical Processor Units (GPU).
+As indicative figures, a typical Set-Up might require a CNN with as much as 57 M parameters to optimize, for a mosaic of 100 training images, and run in a few minutes both for training and prediction with Graphical Processor Units (GPU).
 
 
 
