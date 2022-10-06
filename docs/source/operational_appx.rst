@@ -76,15 +76,15 @@ and a further reference  image (time n+T, domain :math:`\Omega_2`), for a set of
 The Forward-CNN engine or predictor, is a substitute for a physically based simulation, in our case, the selected configuration applies four "convolutional+pooling" downsampling layers, and afterwards another four upsamplings (U-shape)
 connecting with attention gates, layers of the same Width-Height, and for simplicity an identical domain :math:`\Omega`. The metric can be the 
 Jaccard index (intersection over union), RMSE or LSHI, the last two applied to flatten rasters. During the live course how to select images and 
-the training set up are discussed in detail, at this point the whole process has the following steps:
+the training set up are discussed in detail, at this point the whole process can be summarized with the following steps:
 
-#. Selection of Imagery from selected scenarios and significant simulations or remote sensing, a careful process to select the right number and impact.
+#. Selection of Imagery from selected scenarios and significant simulations or remote sensing, a careful process  to select the right number with clear risk impact.
 
-#. Imagery loading and further transformations in order to be processed by Pytorch libraries.
+#. Imagery loading and further transformations in order to be processed by Pytorch libraries and optimization engines.
 
 #. Training of the selected CNN configuration to optimize the Forward-Step or predictor operator.
 
-#. Testing with selected events to improve the prediction capacity and reach Real-Time performance.
+#. Testing with selected events to improve the prediction capacity and reach Real-Time feasibility.
 
 As example figures, an initial Set-Up might require a CNN with as much as 57 M parameters to optimize, for a mosaic of 100 training images, and run in a few minutes both for training and prediction with Graphical Processor Units (GPU).
 
