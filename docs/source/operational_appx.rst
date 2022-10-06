@@ -78,7 +78,7 @@ connecting with attention gates, layers of the same Width-Height, and for simpli
 Jaccard index (intersection over union), RMSE or LSHI, the last two applied to flatten rasters. During the live course how to select images and 
 the training set up are discussed in detail, at this point the whole process can be summarized with the following steps:
 
-#. Selection of Imagery from selected scenarios and significant simulations or remote sensing, a careful process  to select the right number with direct risk impact.
+#. Selection of Imagery from selected scenarios and significant simulations or remote sensing layers, a careful process  to select a proper set number with direct risk impact.
 
 #. Imagery loading and further transformations in order to be processed by Pytorch libraries and optimization engines.
 
