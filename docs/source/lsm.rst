@@ -149,13 +149,6 @@ If the two rasters have the same number of pixels (Nx, Ny) and equal frame coord
 
 Where Sum is the addition of all the pixels (Nx, Ny) values.
 
-Global surface water mapping
-----------------------------
-To have a reference for change detection anywhere, worldwide databases with the extent of permanent water bodies and their time variability are available at the `JRC database`_, and `Global-Flood`_.
- 
-.. _JRC database: https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_3_GlobalSurfaceWater?hl=en 
-
-.. _Global-Flood: https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1
 
 Setting up a Convolutional Neural Network like U-Net
 ----------------------------------------------------
@@ -195,3 +188,12 @@ Figure of the U-Net architecture as pictured by `Iglovikov, 2017`_
   :width: 800
   :alt: UNet
 
+
+
+Global surface water mapping
+----------------------------
+To have a reference for change detection anywhere, worldwide databases with the extent of permanent water bodies and their time variability are available at the `JRC database`_, and `Global-Flood`_.
+ 
+.. _JRC database: https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_3_GlobalSurfaceWater?hl=en 
+
+.. _Global-Flood: https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1
