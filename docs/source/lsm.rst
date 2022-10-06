@@ -192,6 +192,6 @@ Figure of the U-Net architecture as pictured by `Iglovikov, 2017`_
 .. _Iglovikov, 2017: https://arxiv.org/abs/1706.06169 
 
 .. image:: UNet_archi.png
-  :width: 600
+  :width: 800
   :alt: UNet
 
