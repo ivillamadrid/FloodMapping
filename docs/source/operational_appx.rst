@@ -88,9 +88,15 @@ the training set up are discussed in detail, at this point the whole process can
 
 As indicative figures, a typical Set-Up might require a CNN with as much as 57 M parameters to optimize, for a mosaic of 100 training images, and run in a few minutes both for training and prediction with Graphical Processor Units (GPU).
 
+Figure of the U-Net architecture as pictured by `Iglovikov, 2017`_
+
+.. _Iglovikov, 2017: https://arxiv.org/abs/1706.06169 
+
 .. image:: UNet_archi.png
-  :width: 400
+  :width: 600
   :alt: UNet
+  
+  
 
 
 
