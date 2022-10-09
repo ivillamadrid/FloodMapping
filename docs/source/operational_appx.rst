@@ -57,7 +57,7 @@ From `Bates, 2022`_, we can extract a table with the most common sources and ran
 Urban scenarios: street meshing
 -------------------------------
 
-While working with building blocks the most accurate and flexible approach for meshing is the Delaunay tessellation, in this case with `GMSH`_ mesh generator. 
+While working with building blocks across urban scenarios, the most accurate and flexible approach for meshing is the Delaunay tessellation, in this case with `GMSH`_ mesh generator. The steps will be described during a live course.
 
 .. image:: Mallado-Cuadras.png
   :width: 400
