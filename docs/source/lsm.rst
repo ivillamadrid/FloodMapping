@@ -109,6 +109,10 @@ Apart from a flood or water body extent, satellite signals can measure water sur
 .. math::
 
  h_{WSE}=H_{Sat}-\left( R_0 + R_{Dry-tropo} + R_{Wet-tropo} + R_{Iono} + R_{Solid-Earth-Tide} + R_{Pole-Tide} + R_{Geoid}\right)
+ 
+Considering corrections due to instruments, propagation and geophysical factors. The figure displays the footprint for an altimetry Synthetic Aperture RADAR (SAR) signal and typical resolution along-track axis.
+ 
+ 
 
 Image processing: noise filtering
 ---------------------------------
