@@ -102,6 +102,10 @@ It is a relatively easy way of processing and detecting water surfaces over a ce
 
 .. _Paso de las Piedras: https://www.researchgate.net/publication/357174237_Prototipo_Google-Earth-Engine_para_el_modelado_hidrologico_del_embalse_Paso_de_Las_Piedras_Argentina
 
+Altimetry fundamentals
+----------------------
+Apart from flood or water body extent, satellite signals can measure water surface elevations too, in order to understand the signal processing we review the main concepts here.
+
 Image processing: noise filtering
 ---------------------------------
 Multi-Spectral and Panchromatic imagery are subject to the presence of cloud cover, whereas SAR microwaves are not perturbed. For the former group
