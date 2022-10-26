@@ -104,7 +104,11 @@ It is a relatively easy way of processing and detecting water surfaces over a ce
 
 Altimetry fundamentals
 ----------------------
-Apart from flood or water body extent, satellite signals can measure water surface elevations too, in order to understand the signal processing we review the main concepts here.
+Apart from a flood or water body extent, satellite signals can measure water surface elevations too, in order to understand the signal processing we review the main concepts to determine the water surface elevation as:
+
+.. math::
+
+ h_WSE=alt_{Sat}-\left( R_0 + R_{Dry-tropo} + R_{Wet-tropo} + R_{Iono} + R_{Solid-Earth-Tide} + R_{Pole-Tide} + R_{Geoid}\right)
 
 Image processing: noise filtering
 ---------------------------------
