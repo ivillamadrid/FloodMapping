@@ -112,7 +112,9 @@ Apart from a flood or water body extent, satellite signals can measure water sur
  
 Considering corrections due to instruments, propagation and geophysical factors. The figure displays the footprint for an altimetry Synthetic Aperture RADAR (SAR) signal and typical resolution along-track axis.
  
- 
+.. image:: Altimetry_SAR-footprint.png
+  :width: 400
+  :alt: Convolution
 
 Image processing: noise filtering
 ---------------------------------
