@@ -108,7 +108,7 @@ Apart from a flood or water body extent, satellite signals can measure water sur
 
 .. math::
 
- h_WSE=alt_{Sat}-\left( R_0 + R_{Dry-tropo} + R_{Wet-tropo} + R_{Iono} + R_{Solid-Earth-Tide} + R_{Pole-Tide} + R_{Geoid}\right)
+ h_{WSE}=alt_{Sat}-\left( R_0 + R_{Dry-tropo} + R_{Wet-tropo} + R_{Iono} + R_{Solid-Earth-Tide} + R_{Pole-Tide} + R_{Geoid}\right)
 
 Image processing: noise filtering
 ---------------------------------
