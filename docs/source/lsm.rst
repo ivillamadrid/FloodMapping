@@ -13,7 +13,7 @@ The momentum conservation at every control-volume or cell for the full (or compl
 
 .. math::
 
-  \frac{\delta Q} {\delta t} + \frac{\delta \left( Q^2/A \right)} {\delta x} = gA \frac{\delta \left( Z_b+h \right)} {\delta x}-S_f 
+  \frac{\delta Q} {\delta t} + \frac{\delta \left( Q^2/A \right)} {\delta x} + gA \frac{\delta \left( Z_b+h \right)} {\delta x}+S_f=0 
 
 .. list-table:: 
    :widths: 10 20 10 20
