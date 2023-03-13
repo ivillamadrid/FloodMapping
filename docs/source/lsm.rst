@@ -33,7 +33,7 @@ The momentum conservation at every control-volume or cell for the full (or compl
      - h
      - water depth (m)
    * - Sf
-     - friction slope (m^3/s^2)
+     - friction slope (no dim)
      - g
      - gravity constant (m/s^2)
 
