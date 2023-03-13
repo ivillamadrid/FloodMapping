@@ -13,7 +13,7 @@ The momentum conservation at every control-volume or cell for the full (or compl
 
 .. math::
 
-  \frac{\delta Q} {\delta t} + \frac{\delta \left( Q^2/A \right)} {\delta x} + gA \frac{\delta \left( Z_b+h \right)} {\delta x}+S_f=0 
+  \frac{\delta Q} {\delta t} + \frac{\delta \left( Q^2/A \right)} {\delta x} + gA \frac{\delta \left( Z_b+h \right)} {\delta x}+gA S_f=0 
 
 .. list-table:: 
    :widths: 10 20 10 20
@@ -48,7 +48,7 @@ Or equivalently:
 
 .. math::
 
-  S_f = -gA \frac{\delta \left( Z_b+h \right)} {\delta x} \equiv gA \nabla (Z_b+h)\\
+  \frac{\delta h} {\delta x}-S_0+S_f=0 \\
 
 
 That links friction slope with stage gradient. Using empirical Manning´s formulation with 'n' as roughness coefficient,  1D(X) or 2D(X, Y):
