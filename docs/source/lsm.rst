@@ -51,7 +51,13 @@ Or equivalently:
   \frac{\delta h} {\delta x}-S_0+S_f=0 \\
 
 
-That links friction slope with stage gradient. Using empirical Manning´s formulation with 'n' as roughness coefficient,  1D(X) or 2D(X, Y):
+That links friction slope with stage gradient, as the bed slope is
+
+.. math::
+
+  S_0=-\frac{\delta Z_b} {\delta x} \\
+  
+Using empirical Manning´s formulation with 'n' as roughness coefficient,  1D(X) or 2D(X, Y):
 
 .. math::
 
