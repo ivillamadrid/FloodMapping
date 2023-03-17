@@ -41,13 +41,13 @@ Where U is the vector of conservative variables, F and G are flows in X and Y di
      - Uy
      - Y-velocity (m/s)
    * - Sox
-     - X-Slope ()
+     - X-Slope (no dim)
      - Soy
-     - Y-Slope ()
+     - Y-Slope (no dim)
    * - Sfx
-     - X-friction slope (m^3/s^2)
+     - X-friction slope (no dim)
      - Sfy
-     - Y-friction slope (m^3/s^2)
+     - Y-friction slope (no dim)
    * - g
      - gravity constant (m/s^2)  
      -
